@@ -20,7 +20,7 @@
     <body>
         <div class="div-section">
             <!-- NAVBAR SECTION -->
-            <div class="navbar">
+            <div class="navbar" id="myNavbar">
                 <ul class="menu">
                     <li class="navbar_item" id="active">
                         <a href="admin-dashboard.html" class="navbar_link"
@@ -44,7 +44,7 @@
             </div>
             <div class="content">
                 <div class="top">
-                    <i class="fa-solid fa-bars list-icon"></i>
+                    <i class="fa-solid fa-bars list-icon" onclick="close()"></i>
                     <div class="logo-div">
                         <a href="admin-dashboard.html">
                             <img
@@ -55,7 +55,13 @@
                         </a>
                     </div>
                 </div>
+                <div class="statistic">
+                    <div class="total-user"></div>
+                    <div class="total-articles"></div>
+                </div>
             </div>
         </div>
+
+        <script src="scripts/admin.js"></script>
     </body>
 </html>
