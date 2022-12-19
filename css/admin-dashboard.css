@@ -15,7 +15,7 @@
 /* NAVBAR SECTION */
 .navbar {
     background-color: #5a4c2a;
-    width: 15%;
+    width: 14%;
     min-height: 100vh;
 }
 
@@ -35,7 +35,7 @@
 .navbar_link {
     color: white;
     text-decoration: none;
-    padding: 0 20px;
+    padding: 0 10px;
     font-size: 12px;
 }
 .navbar_link i {
