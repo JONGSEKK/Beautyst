@@ -22,10 +22,23 @@
             <h1>Welcome to Beautyst</h1>
             <div class="line"></div>
             <p class="description">By entering with your account you can <br>have more control  of the page and<br>get the latest update from us.</p>
-            <p class="text">Email : </p>
-            <input class="input" id="email" type="email" placeholder="mail@email.com">
-            <p class="text">Password :</p>
-            <input class="input" id="password" type="password" placeholder="Password"> <br>
+
+            <form id="form" class="form">
+                <div class="form-control">
+                    <p class="text">Email : </p>
+                    <input class="input" id="email" type="email" placeholder="mail@email.com">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <p class="text">Password :</p>
+                    <input class="input" id="password" type="password" placeholder="Password"> <br>
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+            </form>
             <i class="fa-solid fa-eye" onclick="viewPassword()"></i>
             <button id="submit" type="submit" onclick="validate()">Log In</button>
             <p class="refer">Don't have an account? <a href="register.html">Sign Up</a></p>
