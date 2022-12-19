@@ -44,7 +44,9 @@
             </div>
             <div class="content">
                 <div class="top">
-                    <i class="fa-solid fa-bars list-icon" onclick="close()"></i>
+                    <div onclick="close()">
+                        <i class="fa-solid fa-bars list-icon"></i>
+                    </div>
                     <div class="logo-div">
                         <a href="admin-dashboard.html">
                             <img
@@ -55,13 +57,22 @@
                         </a>
                     </div>
                 </div>
+                <!-- Statistic -->
                 <div class="statistic">
-                    <div class="total-user"></div>
-                    <div class="total-articles"></div>
+                    <div class="total-div">
+                        <i class="bi bi-people-fill"></i>
+                        <h4>Total Users</h4>
+                        <p class="total-user">10</p>
+                    </div>
+                    <div class="total-div">
+                        <i class="bi bi-people-fill"></i>
+                        <h4>Total Users</h4>
+                        <p class="total-user">10</p>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <script src="scripts/admin.js"></script>
+        <script src="./scripts/admin.js"></script>
     </body>
 </html>
