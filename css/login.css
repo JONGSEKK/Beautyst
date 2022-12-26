@@ -75,34 +75,6 @@ body{
     margin-bottom: 30px;
 }
 
-.content .text{
-    margin-left: 100px;
-    font-size: 20px;
-    font-weight: 500;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.content .input{
-    margin-left: 100px;
-    width: 300px;
-    font-size: 18px;
-    border: none;
-    outline: none;
-    border-bottom: 1px solid #4E3700;
-}
-
-.content button{
-    margin-top: 40px;
-    margin-left: 100px;
-    padding: 10px 132.5px;
-    border-radius: 15px;
-    background-color: #5A4C2A;
-    color: white;
-    font-size: 18px;
-    border: none;
-    cursor: pointer;
-}
 
 .content .refer{
     margin-left: 160px;
@@ -114,7 +86,37 @@ body{
     color: #3f2c00;
 }
 
-.content i{
+.form-control label{
+    margin-left: 100px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-control input{
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 300px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #4E3700;
+}
+
+.form-control small {
+	color: #e74c3c;
+	bottom: 0;
+	left: 0;
+    margin-left: 120px;
+    visibility: hidden;
+}
+
+.form-control.error small {
+	visibility: visible;
+}
+
+.form-control i{
     position: absolute;
     right: 0;
     margin-right: 100px;
@@ -123,6 +125,19 @@ body{
     cursor: pointer;
 }
 
-.content i:active{
+.form-control i:active{
     color: #5A4C2A;
+    font-size: 12px;
+}
+
+.form button{
+    margin-top: 20px;
+    margin-left: 100px;
+    padding: 10px 132.5px;
+    border-radius: 15px;
+    background-color: #5A4C2A;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
 }
