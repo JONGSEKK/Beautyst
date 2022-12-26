@@ -12,11 +12,11 @@ else{
 attempt --;
 alert("Invalid Email And Password \nYou have left "+attempt+" attempt");
 
-if( attempt == 0){
-document.getElementById("email").disabled = true;
-document.getElementById("password").disabled = true;
-document.getElementById("submit").disabled = true;
-return false;
+function setErrorFor(input, message) {
+	const formControl = input.parentElement;
+	const small = formControl.querySelector('small');
+	formControl.className = 'form-control error';
+	small.innerText = message;
 }
 }
 }
