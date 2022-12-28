@@ -7,7 +7,6 @@
     font-family: "Neuton", serif;
 }
 
-
 /* NAVBAR SECTION */
 
 .navbar {
@@ -95,7 +94,6 @@ i {
     font-size: 25px;
 }
 
-
 /* ARTICLE SECTION */
 
 .article_image {
@@ -109,7 +107,7 @@ i {
 
 .article_information {
     position: absolute;
-    background-color: #5A4C2A;
+    background-color: #5a4c2a;
     width: 70%;
     padding: 40px;
     border-top-right-radius: 60px;
@@ -119,14 +117,13 @@ i {
 
 .article_category {
     font-size: 20px;
-    color: #EFCB73;
+    color: #efcb73;
 }
 
 .article_title {
     font-size: 36px;
     color: white;
 }
-
 
 /* TOP ARTICLES SECTION */
 
@@ -147,7 +144,7 @@ i {
 }
 
 .author_name {
-    color: #5A4C2A;
+    color: #5a4c2a;
     margin-right: 10px;
     font-size: 20px;
 }
@@ -194,14 +191,13 @@ video {
     text-align: justify;
 }
 
-
 /* FOOTER SECTION */
 
 .footer_container {
     display: flex;
-    justify-content: space-around;
-    background-color: #5a4c2a;
-    height: 330px;
+    justify-content: space-evenly;
+    background-color: black;
+    height: 320px;
     padding-top: 50px;
     width: 100%;
 }
@@ -209,25 +205,24 @@ video {
 .footer_logo {
     background-color: #ffffff;
     border-radius: 50px;
-    padding-left: 75px;
-    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 67px;
+    margin-bottom: 10px;
 }
 
 .logo_footer {
     width: 60px;
 }
 
-.first_footer {
-    padding-left: 70px;
-}
-
 .address {
-    font-size: 20px;
+    font-size: 18px;
     color: white;
-    padding: 5px 0;
+    padding: 2px 0;
 }
 
 .phone_number {
+    margin-top: 5px;
     font-size: 18px;
     color: white;
     padding: 5px 0;
@@ -237,22 +232,6 @@ video {
     font-size: 18px;
     color: white;
     padding: 5px 0;
-}
-
-.vl {
-    border-left: 2px solid white;
-    height: 230px;
-    position: absolute;
-    left: 28%;
-    margin-bottom: 20px;
-}
-
-.vl_2 {
-    border-left: 2px solid white;
-    height: 230px;
-    position: absolute;
-    left: 70%;
-    margin-bottom: 20px;
 }
 
 .second_footer {
@@ -270,43 +249,46 @@ video {
 
 .horizontal_1 {
     width: 60px;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 
 .horizontal_2 {
     width: 30px;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 
 .horizontal_3 {
     width: 60px;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 
 .about {
-    font-size: 25px;
+    font-size: 18px;
     color: white;
 }
 
 .menu_items {
-    font-size: 25px;
+    font-size: 18px;
     color: white;
 }
 
 .follow {
-    font-size: 25px;
+    font-size: 18px;
     color: white;
 }
 
 .company_details {
-    font-size: 20px;
+    font-size: 14px;
     color: white;
-    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 .menu_child {
-    font-size: 20px;
-    margin-top: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
     color: white;
     text-decoration: none;
 }
@@ -316,23 +298,25 @@ video {
 }
 
 .update {
-    font-size: 25px;
+    font-size: 18px;
     color: white;
 }
 
 .follow_link {
-    font-size: 20px;
+    font-size: 14px;
+    margin-bottom: 10px;
     color: white;
     text-decoration: none;
 }
 
 .horizontal_4 {
     width: 80px;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 
 .update_description {
-    font-size: 20px;
+    font-size: 14px;
     color: white;
     margin-bottom: 20px;
 }
@@ -341,7 +325,7 @@ video {
     position: relative;
 }
 
-.email {
+.email_third_footer {
     padding: 12px;
     border-radius: 30px;
     margin: 8px 0;
@@ -354,7 +338,7 @@ video {
 .send {
     position: absolute;
     width: 60px;
-    height: 40px;
+    height: 41px;
     color: red;
     display: block;
     cursor: pointer;
@@ -362,12 +346,20 @@ video {
     border: 3px solid #5a4c2a;
     border-bottom-right-radius: 30px;
     left: 102%;
-    top: 17%;
+    top: 15%;
     border: none;
     color: white;
 }
 
 .send a .mail {
     font-size: 24px;
-    color: #5a4c2a;
+}
+
+.copyright {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    border-top: 1px solid #2c2c2c;
+    font-size: 14px;
 }
