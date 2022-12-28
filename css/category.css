@@ -111,7 +111,7 @@ i {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 70px;
+    font-size: 60px;
     letter-spacing: 7px;
 }
 
@@ -120,14 +120,14 @@ i {
 .header_article {
     margin-top: 60px;
     display: flex;
-    margin-left: 210px;
+    margin-left: 5%;
     align-items: center;
 }
 
 .line_header {
     border: 2px solid #efcb73;
     margin-left: 30px;
-    width: 827px;
+    width: 57%;
 }
 
 .top_article {
@@ -140,6 +140,7 @@ i {
     display: flex;
     justify-content: center;
     margin-top: 30px;
+    margin-bottom: 100px;
 }
 
 .tutorials_item img {

@@ -108,11 +108,11 @@ i {
 .article_information {
     position: absolute;
     background-color: #5a4c2a;
-    width: 70%;
-    padding: 40px;
+    width: 75%;
+    padding: 40px 60px 40px 180px;
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
-    top: 53%;
+    top: 33%;
 }
 
 .article_category {
@@ -166,17 +166,17 @@ i {
 
 .line_header {
     border: 2px solid #efcb73;
-    margin-left: 1%;
-    width: 1320px;
+    margin-top: 10px;
 }
 
 .content {
     margin-top: 20px;
+    margin-bottom: 200px;
 }
 
 .content_paragraph1 {
     margin-bottom: 30px;
-    font-size: 24px;
+    font-size: 20px;
     text-align: justify;
 }
 
@@ -187,7 +187,7 @@ video {
 .content_paragraph2 {
     margin-top: 30px;
     margin-bottom: 30px;
-    font-size: 24px;
+    font-size: 20px;
     text-align: justify;
 }
 
