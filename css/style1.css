@@ -7,6 +7,7 @@
     font-family: "Neuton", serif;
 }
 
+
 /* NAVBAR SECTION */
 
 .navbar {
@@ -18,11 +19,6 @@
     top: 0;
     z-index: 999;
     background-color: #ffffff;
-}
-
-.navbar-sticky-color {
-    background-color: #5a4c2a;
-    /* color: white; */
 }
 
 .navbar_container {
@@ -71,17 +67,11 @@
     border-top: 1px solid white;
     border-bottom: 1px solid white;
 }
-.navbar_link_sticky {
-    color: white;
-
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-}
 
 .navbar_link:hover {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    transition: all 0.8s;
+    transition: all 0.5s;
 }
 
 .navbar_icon {
@@ -104,6 +94,7 @@ i {
 .wishlist {
     font-size: 25px;
 }
+
 
 /* ARTICLE SECTION */
 
@@ -173,6 +164,7 @@ i {
     width: 100%;
     color: white;
 }
+
 
 /* TOP ARTICLES SECTION */
 
@@ -264,6 +256,12 @@ i {
     width: 302px;
     margin-left: 20px;
 }
+
+.header {
+    margin-left: 35%;
+    margin-top: 20px;
+}
+
 
 /* CATEGORIES SECTION */
 
@@ -456,6 +454,7 @@ i {
     height: 437px;
 }
 
+
 /* FOOTER SECTION */
 
 .footer_container {
@@ -569,20 +568,22 @@ i {
     font-size: 20px;
     margin-top: 5px;
     color: white;
+    text-decoration: none;
 }
 
 .follow_link {
     font-size: 20px;
 }
 
-.follow_link a {
-    color: white;
-    text-decoration: none;
-}
-
 .update {
     font-size: 25px;
     color: white;
+}
+
+.follow_link {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
 }
 
 .horizontal_4 {
@@ -597,6 +598,10 @@ i {
 }
 
 .email_address {
+    position: relative;
+}
+
+.email {
     padding: 12px;
     border-radius: 30px;
     margin: 8px 0;
@@ -616,18 +621,13 @@ i {
     border-top-right-radius: 30px;
     border: 3px solid #5a4c2a;
     border-bottom-right-radius: 30px;
+    left: 102%;
+    top: 17%;
     border: none;
-    right: 2%;
-    top: 3926px;
     color: white;
 }
 
 .send a .mail {
     font-size: 24px;
     color: #5a4c2a;
-}
-
-a {
-    text-decoration: none;
-    color: white;
 }
