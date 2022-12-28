@@ -120,14 +120,14 @@ i {
 .header_article {
     margin-top: 60px;
     display: flex;
-    margin-left: 5%;
+    margin-left: 8%;
     align-items: center;
 }
 
 .line_header {
     border: 2px solid #efcb73;
     margin-left: 30px;
-    width: 57%;
+    width: 59%;
 }
 
 .top_article {
@@ -151,7 +151,7 @@ i {
 .tutorial {
     display: grid;
     grid-template-columns: auto auto auto;
-    padding-right: 200px;
+    padding-right: 80px;
 }
 
 .tutorials_card {
