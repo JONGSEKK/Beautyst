@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
     <link rel="stylesheet" href="/css/register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="icon" href="/assets/WhatsApp_Image_2022-12-16_at_11.48.50_PM-removebg-preview.png">
 </head>
 <body>
@@ -19,7 +20,8 @@
             <h1>Create an Account</h1>
             <div class="line"></div>
             <p class="description">Tell us a bit about yourself by providing the<br>required data in the text field below.</p>
-            <div class="content-1">
+
+            <!--<div class="content-1">
                 <div class="left">
                     <p class="text">First Name : </p>
                     <input class="input" type="text" placeholder="First Name">
@@ -36,12 +38,52 @@
                     <p class="text-1">Confirm Password :</p>
                     <input class="input-1" type="password" placeholder="Confirm Password"> <br>
                 </div>
-            </div>  
+            </div> -->
             
-            <button type="submit">Sign Up</button>
-            <p class="refer">Already have an account? <a href="login.html">Log In</a></p>
-            
+            <form id="form" class="form">
+                <div class="content-1">
+                    <div class="left">
+                        <div class="form-control">
+                            <label for="username">First Name :</label><br>
+                            <input type="email" placeholder="First Name" id="fn" /><br>
+                            <small>Error message</small>
+                        </div>
+                        <div class="form-control">
+                            <label for="username">Email :</label><br>
+                            <input type="email" placeholder="email@email.com" id="email" /><br>
+                            <small>Error message</small>
+                        </div>
+                        <div class="form-control">
+                            <label for="username">Password :</label><br>
+                            <input type="password" placeholder="Password" id="password"/><br>
+                            <i class="fa-solid fa-eye" onclick="viewPassword()"></i>
+                            <small>Error message</small>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="form-control">
+                            <label for="username">Last Name :</label><br>
+                            <input type="email" placeholder="Last Name" id="ln" /><br>
+                            <small>Error message</small>
+                        </div>
+                        <div class="form-control">
+                            <label for="username">Username:</label><br>
+                            <input type="email" placeholder="Username" id="username" /><br>
+                            <small>Error message</small>
+                        </div>
+                        <div class="form-control">
+                            <label for="username">Confirm Password :</label><br>
+                            <input type="password" placeholder="Re-enter Password" id="password2"/><br>
+                            <i class="fa-solid fa-eye" onclick="viewPassword2()"></i>
+                            <small>Error message</small>
+                        </div>
+                    </div>
+                </div>
+                <button>Sign Up</button>
+                <p class="refer">Already have an account? <a href="login.html">Log In</a></p>
+            </form>
         </div>
     </div>
+    <script src="/scripts/register.js"></script>
 </body>
 </html>
