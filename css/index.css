@@ -168,14 +168,14 @@ i {
 .header_article {
     margin-top: 60px;
     display: flex;
-    margin-left: 8%;
+    margin-left: 5%;
     align-items: center;
 }
 
 .line_header {
     border: 2px solid #efcb73;
     margin-left: 30px;
-    width: 54%;
+    width: 57%;
 }
 
 .top_article {
@@ -198,7 +198,7 @@ i {
 .tutorial {
     display: grid;
     grid-template-columns: auto auto auto;
-    padding-right: 80px;
+    padding-right: 40px;
 }
 
 .tutorials_card {
@@ -265,11 +265,11 @@ i {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 70px 0px;
+    margin: 70px 5%;
 }
 
 .category_container {
-    width: 573px;
+    /* width: 573px; */
 }
 
 .category_fashion {
@@ -446,8 +446,8 @@ i {
 }
 
 .category_image img {
-    width: 655px;
-    height: 437px;
+    width: 550px;
+    height: 366px;
 }
 
 /* FOOTER SECTION */

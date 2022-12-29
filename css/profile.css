@@ -61,8 +61,10 @@
     /* margin-right: 20px; */
     padding: 7px 0;
     text-decoration: none;
-    transition: all 0.7 ease;
+    transition: all 0.3 ease;
     margin-left: 150px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
 }
 
 .navbar_link:hover {
@@ -97,7 +99,7 @@ i {
 .article_image {
     position: relative;
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .article_image img {
@@ -113,108 +115,68 @@ i {
     letter-spacing: 7px;
 }
 
-/* TOP ARTICLES SECTION */
-
-.header_article {
-    margin-top: 60px;
-    display: flex;
-    margin-left: 12%;
-    align-items: center;
-}
-
-.line_header {
-    border: 2px solid #efcb73;
-    margin-left: 30px;
-    width: 64%;
-}
-
-.top_article {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.main_tutorials {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-    margin-bottom: 200px;
-}
-
-.tutorials_item {
-    position: relative;
-}
-
-.tutorials_item img {
-    width: 482px;
-    height: 314px;
-}
-
-.wishlist_icon {
-    position: absolute;
-    top: 8px;
-    right: 16px;
-    font-size: 30px;
-    color: #f44336;
-}
-
-.tutorial {
-    display: grid;
-    grid-template-columns: auto auto;
-    padding-right: 200px;
-}
-
-.tutorials_card {
-    padding-left: 120px;
-    padding-bottom: 40px;
-}
-
-.description {
-    width: 450px;
-}
-
-.type {
-    margin-top: 10px;
-    font-size: 12px;
-    color: #5a4c2a;
-}
-
-.popular_articles {
-    width: 350px;
-    height: 656px;
-    background-color: rgba(90, 76, 42, 0.1);
-    padding: 10px;
-}
-
-.popular_title {
+/* PROFILE SECTION */
+.profile {
+    background-color: #a99d80;
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    font-size: 20px;
+    margin: 15px 300px 50px 300px;
+    padding: 30px 0;
+    border-radius: 20px;
+    font-size: 18px;
 }
-
-.popular_item {
-    padding: 20px;
-}
-
-.popular_date {
-    font-size: 14px;
-    color: #5a4c2a;
+.profile h1 {
+    display: inline-block;
     margin-bottom: 20px;
 }
-
-.popular_description {
-    margin-bottom: 20px;
+.fname {
+    background-color: white;
+    width: 45%;
+    padding: 7px 0;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 10px 0;
 }
-
-.more_articles {
-    color: black;
-    font-size: 12px;
+.lname {
+    background-color: white;
+    width: 45%;
+    padding: 7px 0;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 10px 0;
 }
-
-.popular_horizontal {
-    width: 302px;
-    margin-left: 20px;
+.username {
+    background-color: white;
+    width: 45%;
+    padding: 7px 0;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.email {
+    background-color: white;
+    width: 45%;
+    padding: 7px 0;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.logout {
+    margin: 20px 0;
+    background-color: #5a4c2a;
+    display: inline-block;
+    width: 30%;
+    padding: 8px 0;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+}
+.logout:hover {
+    background-color: #4e3700;
+    transition: 0.5s;
+}
+.button-logout {
+    color: white;
+    font-size: 15px;
 }
 
 /* FOOTER SECTION */
@@ -254,7 +216,7 @@ i {
     padding: 5px 0;
 }
 
-.email {
+.email-company {
     font-size: 18px;
     color: white;
     padding: 5px 0;
