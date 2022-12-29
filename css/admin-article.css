@@ -98,51 +98,47 @@
 }
 
 
-/* Statistic */
-
-.icon {
-    grid-area: total-icon;
-}
-
-.total-title {
-    grid-area: title;
-}
-
-.total-user {
-    grid-area: user;
-}
-
-.statistic {
-    display: flex;
-    justify-content: center;
-}
-
-.total-div {
-    display: grid;
-    grid-template-areas: 'total-icon title' 'total-icon user';
-    gap: 10px;
-    background-color: #f3f6f9;
-    width: 20%;
-    padding: 20px 0;
-    margin-top: 30px;
-    margin-right: 60px;
-}
-
-.total-div i {
-    font-size: 50px;
-    color: #5a4c2a;
-    margin: 0 50px;
-}
-
-
 /* TABLE SECTION */
+
+.add-article-header {
+    width: 40%;
+    padding: 20px;
+    background-color: #F3F6F9;
+    margin-top: 50px;
+    margin-left: 260px;
+}
+
+.content-add-article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.add-articles {
+    background-color: #5A4C2A;
+    padding: 10px 60px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.add-articles:hover {
+    background-color: #9e6f0a;
+}
+
+.add-article-link {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
 
 .recent-user {
     margin-top: 50px;
     margin-left: 260px;
     background-color: #F3F6F9;
     width: 70%;
-    padding: 50px;
+    padding: 30px;
     margin-bottom: 40px;
 }
 
@@ -192,7 +188,7 @@
     border-top-left-radius: 20px;
 }
 
-.table-header-cell:nth-child(4) {
+.table-header-cell:nth-child(5) {
     border-top-right-radius: 20px;
 }
 
@@ -209,4 +205,51 @@
 .table-row-cell {
     display: table-cell;
     padding: 10px;
+}
+
+.button-trash {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.edit {
+    display: flex;
+    justify-content: space-around;
+    background-color: #5A4C2A;
+    padding: 5px 20px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.edit:hover {
+    background-color: #9e6f0a;
+}
+
+.edit-text {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.icon-edit {
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.icon-trash {
+    font-size: 20px;
+    color: #5A4C2A;
+}
+
+.icon-trash:hover {
+    color: #9e6f0a;
 }
