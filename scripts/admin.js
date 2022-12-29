@@ -1,7 +1,3 @@
-// function close() {
-//     document.getElementById("myNavbar").style.display = "none";
-// }
-
 let isOpen = true;
 
 document.querySelector(".list-icon").addEventListener("click", () => {
