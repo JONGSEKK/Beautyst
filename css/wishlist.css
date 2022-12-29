@@ -61,8 +61,10 @@
     /* margin-right: 20px; */
     padding: 7px 0;
     text-decoration: none;
-    transition: all 0.7 ease;
+    transition: all 0.3 ease;
     margin-left: 150px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
 }
 
 .navbar_link:hover {
