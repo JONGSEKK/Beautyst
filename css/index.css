@@ -168,14 +168,14 @@ i {
 .header_article {
     margin-top: 60px;
     display: flex;
-    margin-left: 5%;
+    margin-left: 14%;
     align-items: center;
 }
 
 .line_header {
     border: 2px solid #efcb73;
     margin-left: 30px;
-    width: 57%;
+    width: 50%;
 }
 
 .top_article {
