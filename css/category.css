@@ -7,7 +7,6 @@
     font-family: "Neuton", serif;
 }
 
-
 /* NAVBAR SECTION */
 
 .navbar {
@@ -95,7 +94,6 @@ i {
     font-size: 25px;
 }
 
-
 /* ARTICLE SECTION */
 
 .article_image {
@@ -113,24 +111,23 @@ i {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 70px;
+    font-size: 60px;
     letter-spacing: 7px;
 }
-
 
 /* TOP ARTICLES SECTION */
 
 .header_article {
     margin-top: 60px;
     display: flex;
-    margin-left: 210px;
+    margin-left: 5%;
     align-items: center;
 }
 
 .line_header {
     border: 2px solid #efcb73;
     margin-left: 30px;
-    width: 827px;
+    width: 63%;
 }
 
 .top_article {
@@ -143,6 +140,7 @@ i {
     display: flex;
     justify-content: center;
     margin-top: 30px;
+    margin-bottom: 100px;
 }
 
 .tutorials_item img {
@@ -153,7 +151,7 @@ i {
 .tutorial {
     display: grid;
     grid-template-columns: auto auto auto;
-    padding-right: 200px;
+    padding-right: 40px;
 }
 
 .tutorials_card {
@@ -214,14 +212,13 @@ i {
     margin-top: 20px;
 }
 
-
 /* FOOTER SECTION */
 
 .footer_container {
     display: flex;
-    justify-content: space-around;
-    background-color: #5a4c2a;
-    height: 330px;
+    justify-content: space-evenly;
+    background-color: black;
+    height: 320px;
     padding-top: 50px;
     width: 100%;
 }
@@ -229,25 +226,24 @@ i {
 .footer_logo {
     background-color: #ffffff;
     border-radius: 50px;
-    padding-left: 75px;
-    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 67px;
+    margin-bottom: 10px;
 }
 
 .logo_footer {
     width: 60px;
 }
 
-.first_footer {
-    padding-left: 70px;
-}
-
 .address {
-    font-size: 20px;
+    font-size: 18px;
     color: white;
-    padding: 5px 0;
+    padding: 2px 0;
 }
 
 .phone_number {
+    margin-top: 5px;
     font-size: 18px;
     color: white;
     padding: 5px 0;
@@ -257,22 +253,6 @@ i {
     font-size: 18px;
     color: white;
     padding: 5px 0;
-}
-
-.vl {
-    border-left: 2px solid white;
-    height: 230px;
-    position: absolute;
-    left: 28%;
-    margin-bottom: 20px;
-}
-
-.vl_2 {
-    border-left: 2px solid white;
-    height: 230px;
-    position: absolute;
-    left: 70%;
-    margin-bottom: 20px;
 }
 
 .second_footer {
@@ -290,43 +270,48 @@ i {
 
 .horizontal_1 {
     width: 60px;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 
 .horizontal_2 {
     width: 30px;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 
 .horizontal_3 {
     width: 60px;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 
 .about {
-    font-size: 25px;
+    font-size: 18px;
     color: white;
 }
 
 .menu_items {
-    font-size: 25px;
+    font-size: 18px;
     color: white;
 }
 
 .follow {
-    font-size: 25px;
+    font-size: 18px;
     color: white;
 }
 
 .company_details {
-    font-size: 20px;
+    font-size: 14px;
     color: white;
-    margin-top: 5px;
+    margin-bottom: 10px;
+    line-height: 25px;
+    width: 250px;
 }
 
 .menu_child {
-    font-size: 20px;
-    margin-top: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
     color: white;
     text-decoration: none;
 }
@@ -336,23 +321,25 @@ i {
 }
 
 .update {
-    font-size: 25px;
+    font-size: 18px;
     color: white;
 }
 
 .follow_link {
-    font-size: 20px;
+    font-size: 14px;
+    margin-bottom: 10px;
     color: white;
     text-decoration: none;
 }
 
 .horizontal_4 {
     width: 80px;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 
 .update_description {
-    font-size: 20px;
+    font-size: 14px;
     color: white;
     margin-bottom: 20px;
 }
@@ -361,7 +348,7 @@ i {
     position: relative;
 }
 
-.email {
+.email_third_footer {
     padding: 12px;
     border-radius: 30px;
     margin: 8px 0;
@@ -374,7 +361,7 @@ i {
 .send {
     position: absolute;
     width: 60px;
-    height: 40px;
+    height: 41px;
     color: red;
     display: block;
     cursor: pointer;
@@ -382,12 +369,20 @@ i {
     border: 3px solid #5a4c2a;
     border-bottom-right-radius: 30px;
     left: 102%;
-    top: 17%;
+    top: 15%;
     border: none;
     color: white;
 }
 
 .send a .mail {
     font-size: 24px;
-    color: #5a4c2a;
+}
+
+.copyright {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    border-top: 1px solid #2c2c2c;
+    font-size: 14px;
 }
