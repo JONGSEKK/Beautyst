@@ -1,0 +1,395 @@
+@import url("https://fonts.googleapis.com/css2?family=Neuton&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Neuton", serif;
+}
+
+/* NAVBAR SECTION */
+
+.navbar {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: #ffffff;
+}
+
+.navbar_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    z-index: 1;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+#logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+    width: 60px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.navbar_item {
+    height: 70px;
+}
+
+.navbar_link {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 125px; */
+    margin-top: 15px;
+    /* margin-right: 20px; */
+    padding: 7px 0;
+    text-decoration: none;
+    transition: all 0.3 ease;
+    margin-left: 150px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.navbar_link:hover {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    transition: all 0.5s;
+}
+
+.navbar_icon {
+    margin-right: 20px;
+}
+
+.navbar_link_icon {
+    margin-left: 20px;
+}
+
+i {
+    color: black;
+    font-weight: bold;
+}
+
+.user {
+    font-size: 30px;
+}
+
+.wishlist {
+    font-size: 25px;
+}
+
+/* ARTICLE SECTION */
+
+.article_image {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.article_image img {
+    width: 100%;
+}
+
+.text_center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    letter-spacing: 7px;
+}
+
+/* TOP ARTICLES SECTION */
+
+.header_article {
+    margin-top: 60px;
+    display: flex;
+    margin-left: 12%;
+    align-items: center;
+}
+
+.line_header {
+    border: 2px solid #efcb73;
+    margin-left: 30px;
+    width: 64%;
+}
+
+.top_article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_tutorials {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 200px;
+}
+
+.tutorials_item {
+    position: relative;
+}
+
+.tutorials_item img {
+    width: 482px;
+    height: 314px;
+}
+
+.wishlist_icon {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 30px;
+    color: #f44336;
+}
+
+.tutorial {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-right: 200px;
+}
+
+.tutorials_card {
+    padding-left: 120px;
+    padding-bottom: 40px;
+}
+
+.description {
+    width: 450px;
+}
+
+.type {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #5a4c2a;
+}
+
+.popular_articles {
+    width: 350px;
+    height: 656px;
+    background-color: rgba(90, 76, 42, 0.1);
+    padding: 10px;
+}
+
+.popular_title {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.popular_item {
+    padding: 20px;
+}
+
+.popular_date {
+    font-size: 14px;
+    color: #5a4c2a;
+    margin-bottom: 20px;
+}
+
+.popular_description {
+    margin-bottom: 20px;
+}
+
+.more_articles {
+    color: black;
+    font-size: 12px;
+}
+
+.popular_horizontal {
+    width: 302px;
+    margin-left: 20px;
+}
+
+/* FOOTER SECTION */
+
+.footer_container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    height: 320px;
+    padding-top: 50px;
+    width: 100%;
+}
+
+.footer_logo {
+    background-color: #ffffff;
+    border-radius: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 67px;
+    margin-bottom: 10px;
+}
+
+.logo_footer {
+    width: 60px;
+}
+
+.address {
+    font-size: 18px;
+    color: white;
+    padding: 2px 0;
+}
+
+.phone_number {
+    margin-top: 5px;
+    font-size: 18px;
+    color: white;
+    padding: 5px 0;
+}
+
+.email {
+    font-size: 18px;
+    color: white;
+    padding: 5px 0;
+}
+
+.second_footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.company {
+    width: 300px;
+}
+
+.menu_list {
+    width: 170px;
+}
+
+.horizontal_1 {
+    width: 60px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.horizontal_2 {
+    width: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.horizontal_3 {
+    width: 60px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.about {
+    font-size: 18px;
+    color: white;
+}
+
+.menu_items {
+    font-size: 18px;
+    color: white;
+}
+
+.follow {
+    font-size: 18px;
+    color: white;
+}
+
+.company_details {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 10px;
+    line-height: 25px;
+    width: 250px;
+}
+
+.menu_child {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.follow_link {
+    font-size: 20px;
+}
+
+.update {
+    font-size: 18px;
+    color: white;
+}
+
+.follow_link {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.horizontal_4 {
+    width: 80px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.update_description {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.email_address {
+    position: relative;
+}
+
+.email_third_footer {
+    padding: 12px;
+    border-radius: 30px;
+    margin: 8px 0;
+    width: 120%;
+    position: relative;
+    outline: none;
+    border: 1px solid #4e3700;
+}
+
+.send {
+    position: absolute;
+    width: 60px;
+    height: 41px;
+    color: red;
+    display: block;
+    cursor: pointer;
+    border-top-right-radius: 30px;
+    border: 3px solid #5a4c2a;
+    border-bottom-right-radius: 30px;
+    left: 102%;
+    top: 15%;
+    border: none;
+    color: white;
+}
+
+.send a .mail {
+    font-size: 24px;
+}
+
+.copyright {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    border-top: 1px solid #2c2c2c;
+    font-size: 14px;
+}
