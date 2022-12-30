@@ -7,49 +7,21 @@
 }
 
 body{
-    overflow: hidden;
-}
-
-.bg{
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
-    width: 65%;
-    height: 101vh;
-    position: relative
-    
-}
-
-.container{
-    position: absolute;
-    top:10%;
-    left: 10%;
-    background-color: white;
-    width: 80%;
-    height: 80%;
-    box-shadow: 2px 2px 16px 4px rgba(0,0,0,0.75);
-
-}
-
-.container img{
-    width: 100%;
-    height: 100%;
+    background-color: #5A4C2A;
 }
 
 .content{
     background-color: white;
-    width: 35%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 1;
+    width: 30%;
+    text-align: center;
+    margin-top: 180px;
+    margin-left: 680px;
+    padding-bottom: 60px;
 }
 
 .content .logo{
     width: 135px;
     height: 130px;
-    margin-left: 210px;
-    margin-top: 60px;
 }
 
 .content h1{
@@ -58,14 +30,13 @@ body{
     font-weight: bold;
     font-size: 25px;
     color: #4E3700;
-    margin-bottom: 8px;
-    margin-top: -10px;
 }
 
 .content .line{
     border-bottom: 2px solid #4E3700;
     width: 130px;
-    margin-left: 173px;
+    margin-left: 193px;
+    margin-bottom: 30px
 }
 
 .content .description{
@@ -75,19 +46,8 @@ body{
     margin-bottom: 30px;
 }
 
-
-.content .refer{
-    margin-left: 180px;
-    margin-top: 10px;
-    color: #5A4C2A;
-}
-
-.content .refer a{
-    color: #3f2c00;
-}
-
 .form-control label{
-    margin-left: 130px;
+    margin-right: 230px;
     font-size: 20px;
     font-weight: 500;
     margin-top: 20px;
@@ -96,7 +56,6 @@ body{
 
 .form-control input{
     margin-top: 30px;
-    margin-left: 130px;
     width: 300px;
     font-size: 18px;
     border: none;
@@ -104,29 +63,16 @@ body{
     border-bottom: 1px solid #4E3700;
 }
 
-.form-control small {
-	color: #e74c3c;
-	bottom: 0;
-	left: 0;
-    margin-left: 120px;
-    visibility: hidden;
-}
-
-.form-control.error small {
-	visibility: visible;
-}
-
 .form-control i{
     position: absolute;
-    margin-right: 120px;
     margin-top: -25px;
+    margin-left: 120px;
     color: #4E3700;
     cursor: pointer;
 }
 
 .form button{
     margin-top: 20px;
-    margin-left: 130px;
     padding: 10px 132.5px;
     border-radius: 15px;
     background-color: #5A4C2A;
@@ -134,4 +80,15 @@ body{
     font-size: 18px;
     border: none;
     cursor: pointer;
+}
+
+.form-control small {
+	color: #e74c3c;
+	bottom: 0;
+	left: 0;
+    visibility: hidden;
+}
+
+.form-control.error small {
+	visibility: visible;
 }

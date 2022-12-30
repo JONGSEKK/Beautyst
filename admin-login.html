@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/admin-login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="icon" href="/assets/WhatsApp_Image_2022-12-16_at_11.48.50_PM-removebg-preview.png">
+</head>
+<body>
+        <div class="content">
+            <img class="logo" src="/assets/WhatsApp_Image_2022-12-16_at_11.48.50_PM-removebg-preview.png">
+            <h1>Welcome to Beautyst</h1>
+            <div class="line"></div>
+            <p class="description">Admin Account</p>
+            <form id="form" class="form">
+                <div class="form-control">
+                    <label for="username">Password :</label><br>
+                    <input type="password" placeholder="Password" id="password"/><br>
+                    <i class="fa-solid fa-eye" onclick="viewPassword()"></i><br>
+                    <small>Error message</small>
+                </div>
+                <button>Submit</button>
+            </form>
+        </div>
+
+    <script src="/scripts/admin-login.js"></script>
+
+</body>
+</html>
