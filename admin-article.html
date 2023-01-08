@@ -11,6 +11,7 @@
     <!-- Font Awesome Icons -->
     <script src="https://kit.fontawesome.com/0b36ed70f7.js" crossorigin="anonymous"></script>
     <title>Admin | Article</title>
+    <link rel="icon" href="/assets/WhatsApp_Image_2022-12-16_at_11.48.50_PM-removebg-preview.png">
 </head>
 
 <body>
@@ -28,7 +29,7 @@
                         >
                     </li>
                     <li class="navbar_item" id="active">
-                        <a href="" class="navbar_link"
+                        <a href="admin-article.html" class="navbar_link"
                             ><i class="bi bi-file-text-fill"></i> &nbsp;
                             Articles</a
                         >
@@ -66,7 +67,7 @@
             <h2 class="user-title">All Articles</h2>
         </div>
         <div class="table">
-            <div class="table-header">
+            <div class="table-header" id="header-article">
                 <div class="table-header-cell">
                     Article Name
                 </div>
@@ -83,8 +84,8 @@
                     Action
                 </div>
             </div>
-            <div class="table-body">
-                <div class="table-row">
+            <div class="table-body" id="body">
+                <!-- <div class="table-row">
                     <div class="table-row-cell">
                         Articles 1
                     </div>
@@ -158,13 +159,14 @@
                             </button>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
     </div>
     </div>
-    <script src="./scripts/admin.js"></script>
+    <script src="../node_modules/pocketbase/dist/pocketbase.umd.js"></script>
+    <script src="./scripts/article.js"></script>
 </body>
 
 </html>

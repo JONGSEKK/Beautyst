@@ -5,10 +5,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/article.css" />
+    <link rel="stylesheet" href="../css/contact-us.css" />
     <!--Font Awesome Icons-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" />
-    <title>Fashion Article</title>
+    <title>Contact Us</title>
     <link rel="icon" href="/assets/WhatsApp_Image_2022-12-16_at_11.48.50_PM-removebg-preview.png">
 </head>
 
@@ -17,7 +17,7 @@
     <nav class="navbar">
         <div class="navbar_container">
             <div class="container">
-                <a href="homepage.html" id="logo_link">
+                <a href="index.html" id="logo_link">
                     <img id="logo" src="../assets/icon.png" alt="logo.png" />
                 </a>
             </div>
@@ -36,7 +36,7 @@
                 </li>
             </ul>
             <div class="navbar_icon">
-                <a href="profile.html" class="navbar_link_icon">
+                <a href="login.html" class="navbar_link_icon">
                     <i class="bi bi-person user"></i>
                 </a>
                 <a href="wishlist.html" class="navbar_link_icon">
@@ -48,63 +48,42 @@
 
     <!-- ARTICLE SECTION -->
     <div class="article">
-        <div class="article_image" id="article-image">
-            <!-- <img src="../assets/fashion.png" alt="article.png" /> -->
-        </div>
-    </div>
-    <div class="article_information">
-        <div class="article_text" id="article-text">
-            <!-- <p class="article_category">FASHION</p>
-            <p class="article_title">
-                How to go to class in an outfit that looks stunning to attract your crush
-            </p> -->
+        <div class="article_image">
+            <img src="/assets/contact-us.jpg" alt="" />
+            <h4 class="text_center">CONTACT US</h4>
+            <p class="text_p">We're happy to answer any questions you have. Just send us any message in the form below with any questions you may have.</p>
         </div>
     </div>
 
-    <!-- ARTICLE CONTENT SECTION -->
-
-    <div class="header_article" id="main-article">
-        <!-- <div class="header_author">
-            <div class="author_section">
-                <p class="author_name">Azri Ishraf</p>
-                <div class="ver"></div>
-                <p class="date">7 September 2022</p>
+    <!-- Contact Us SECTION -->
+    <div class="profile">
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="name">Name :</label><br>
+                <input type="text" placeholder="Name" id="name" /><br>
+                <small>Error message</small>
             </div>
-            <div class="wishlist_section">
-                <a href="" class="navbar_link_icon">
-                    <i class="bi bi-heart"></i>
-                </a>
+            <div class="form-control">
+                <label for="email">Email :</label><br>
+                <input type="email" placeholder="email@email.com" id="email" /><br>
+                <small>Error message</small>
             </div>
-        </div>
-        <hr class="line_header" />
-        <div class="content">
-            <div class="content_paragraph1">
-                <p class="paragraph1">
-                    From makeup to skin care to hairstyle, TikTok is full of tips and tricks of all kinds to help make users’ beauty routines simpler and more natural. This week, the social network shows us how to achieve a stunning blowout hairstyle using no heat — so with
-                    no hair dryer or straighteners. To achieve this slightly wavy blowout look — worthy of the most prestigious red carpet events — all you need is a brush, a few hairpins and… a T-shirt. <br />
-                    <br /> Ever spent hours in your bathroom battling with a round brush and a hair dryer without ever managing to tame your mane? If that sounds familiar, then you’re the ideal candidate for the latest hair hack that’s gone viral on TikTok:
-                    the heatless blowout. Here, it’s all about using everyday objects instead of the traditional hairdryer to achieve a perfect, slightly wavy blowout style.
-                    <br /><br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores commodi beatae ex obcaecati consequuntur ipsum nihil. Quas assumenda, ea natus dolore, illum earum eaque nesciunt et facere, error explicabo voluptas vel
-                    ipsum necessitatibus enim repellendus labore ipsam expedita! At culpa magni minus doloremque quaerat, obcaecati quasi. Consequuntur dignissimos tempore vitae.
-                </p>
+            <div class="form-control">
+                <label for="subject">Subject :</label><br>
+                <input type="text" placeholder="Subject" id="subject" /><br>
+                <small>Error message</small>
             </div>
-
-            <center class="content_video">
-                <video controls class="video">
-                        <source src="../assets/video/fashion1.mp4" />
-                        Your browser does not support the video tag
-                    </video>
-            </center>
-            <div class="content_paragraph2">
-                <p class="paragraph2">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi natus impedit placeat, commodi atque ipsa beatae voluptates molestiae sit cumque porro quasi, voluptatum dicta expedita aspernatur reprehenderit hic vero quae officiis voluptatem eveniet
-                    quos, facere labore mollitia. Quis pariatur cupiditate, natus qui excepturi doloribus fugit temporibus omnis officia animi quae at quos tenetur, perferendis cum aliquid neque voluptatibus assumenda blanditiis nihil? Enim delectus magni
-                    facere eaque laborum, voluptatum, sapiente debitis atque tempora nemo, sint deleniti odio totam suscipit modi hic ut eligendi iure ipsa rem animi. Quibusdam sint, ad eligendi ipsum, nemo doloremque tempora dignissimos atque animi,
-                    repellat nobis perspiciatis.
-                </p>
+            <div class="form-control">
+                <label for="comment">Comment :</label><br>
+                <textarea rows="5" cols="93" type="text" placeholder="Comment" id="comment"></textarea><br>
+                <small>Error message</small>
             </div>
-        </div> -->
+            <button>Submit</button>
+        </form>
+        <script src="/scripts/contact-us.js"></script>
     </div>
+
+
 
     <!-- FOOTER SECTION -->
     <footer class="footer">
@@ -117,7 +96,7 @@
                 <p class="address">86400 Parit Raja, Batu Pahat,</p>
                 <p class="address">Johor, Malaysia</p>
                 <p class="phone_number">+ 60123456789</p>
-                <p class="email">groupwebdev@gmail.com</p>
+                <p class="email-company">groupwebdev@gmail.com</p>
             </div>
 
             <div class="second_footer">
@@ -189,8 +168,6 @@
             </p>
         </div>
     </footer>
-    <script src="../node_modules/pocketbase/dist/pocketbase.umd.js"></script>
-    <script src="../scripts/user-article.js"></script>
 </body>
 
 </html>

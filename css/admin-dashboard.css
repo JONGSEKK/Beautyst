@@ -210,3 +210,17 @@
     display: table-cell;
     padding: 10px;
 }
+
+.no-user {
+    color: #f44336;
+    font-size: 25px;
+    text-align: center;
+    background-color: #F3F6F9;
+}
+
+.no-article {
+    color: #f44336;
+    font-size: 25px;
+    text-align: center;
+    background-color: #F3F6F9;
+}
