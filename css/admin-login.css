@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Neuton:wght@300&display=swap');
+
+*{
+    font-family:'Neuton', serif;;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #5A4C2A;
+}
+
+.content{
+    background-color: white;
+    width: 30%;
+    text-align: center;
+    margin-top: 180px;
+    margin-left: 680px;
+    padding-bottom: 60px;
+}
+
+.content .logo{
+    width: 135px;
+    height: 130px;
+}
+
+.content h1{
+    font-weight: 00;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: #4E3700;
+}
+
+.content .line{
+    border-bottom: 2px solid #4E3700;
+    width: 130px;
+    margin-left: 193px;
+    margin-bottom: 30px
+}
+
+.content .description{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.form-control label{
+    margin-right: 230px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-control input{
+    margin-top: 30px;
+    width: 300px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #4E3700;
+}
+
+.form-control i{
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 120px;
+    color: #4E3700;
+    cursor: pointer;
+}
+
+.form button{
+    margin-top: 20px;
+    padding: 10px 132.5px;
+    border-radius: 15px;
+    background-color: #5A4C2A;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.form-control small {
+	color: #e74c3c;
+	bottom: 0;
+	left: 0;
+    visibility: hidden;
+}
+
+.form-control.error small {
+	visibility: visible;
+}
