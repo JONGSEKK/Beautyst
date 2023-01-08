@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/admin-message.css" />
+    <!--Bootstrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" />
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/0b36ed70f7.js" crossorigin="anonymous"></script>
+    <title>Admin | Message</title>
+</head>
+
+<body>
+    <div class="div-section">
+        <!-- NAVBAR SECTION -->
+        <div class="navbar" id="myNavbar">
+            <ul class="menu">
+                <li class="navbar_item" >
+                    <a href="admin-dashboard.html" class="navbar_link"><i class="bi bi-house-door-fill"></i> &nbsp;
+                    Dashboard</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="admin-users.html" class="navbar_link"><i class="bi bi-person-fill-add"></i> &nbsp;
+                            Users</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="admin-article.html" class="navbar_link"><i class="bi bi-file-text-fill"></i> &nbsp;
+                            Articles</a
+                        >
+                    </li>
+                <li class="navbar_item" id="active">
+                        <a href="admin-message.html" class="navbar_link"
+                            ><i class="bi bi-chat-left-text-fill"></i> &nbsp;
+                            Messages</a
+                        >
+                    </li>
+                </ul>
+            </div>
+            <div class="content">
+                <div class="top">
+                    <div>
+                        <i class="fa-solid fa-bars list-icon"></i>
+                    </div>
+                    <div class="logo-div">
+                        <a href="admin-dashboard.html">
+                            <img
+                                id="logo"
+                                src="../assets/icon.png"
+                                alt="logo.png"
+                            />
+                        </a>
+        </div>
+    </div>
+    <!-- TABLE USER -->
+    <div class="recent-user">
+        <div class="recent-header">
+            <h2 class="user-title">All Messages</h2>
+        </div>
+        <div class="table">
+            <div class="table-header">
+                <div class="table-header-cell">
+                    Name
+                </div>
+                <div class="table-header-cell">
+                    Email Address
+                </div>
+                <div class="table-header-cell">
+                    Subjects
+                </div>
+                <div class="table-header-cell">
+                    Message
+                </div>
+                <div class="table-header-cell">
+                    Action
+                </div>
+            </div>
+            <div class="table-body">
+                <div class="table-row">
+                    <div class="table-row-cell">
+                        Azri Ishraf
+                    </div>
+                    <div class="table-row-cell">
+                        ishrafazri@gmail.com
+                    </div>
+                    <div class="table-row-cell">
+                        My Problem
+                    </div>
+                    <div class="table-row-cell">
+                        I have no problem.
+                    </div>
+                    <div class="table-row-cell">
+                        <button class="button-trash">
+                            <i class="bi bi-trash-fill icon-trash"></i>
+                    </div>
+                </div>
+                <div class="table-row">
+                    <div class="table-row-cell">
+                        Rikey Kurniawan
+                    </div>
+                    <div class="table-row-cell">
+                        rikeykurniawan@gmail.com
+                    </div>
+                    <div class="table-row-cell">
+                        Hi there!
+                    </div>
+                    <div class="table-row-cell">
+                        Your problem is not my problems
+                    </div>
+                    <div class="table-row-cell">
+                        <button class="button-trash">
+                            <i class="bi bi-trash-fill icon-trash"></i>
+                    </div>
+                </div>
+                <div class="table-row">
+                    <div class="table-row-cell">
+                        Aiman Salim
+                    </div>
+                    <div class="table-row-cell">
+                        aimanalias@gmail.com
+                    </div>
+                    <div class="table-row-cell">
+                        Wassup
+                    </div>
+                    <div class="table-row-cell">
+                        I have problem but I forgot for a while.
+                    </div>
+                    <div class="table-row-cell">
+                        <button class="button-trash">
+                            <i class="bi bi-trash-fill icon-trash"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../scripts/admin.js"></script>
+</body>
+
+</html>
