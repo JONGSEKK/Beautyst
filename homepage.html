@@ -1,77 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../css/index.css" />
+        <!--Font Awesome Icons-->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+        />
+        <title>Homepage</title>
+        <link
+            rel="icon"
+            href="/assets/WhatsApp_Image_2022-12-16_at_11.48.50_PM-removebg-preview.png"
+        />
+    </head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/index.css" />
-    <!--Font Awesome Icons-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" />
-    <title>Homepage</title>
-    <link rel="icon" href="/assets/WhatsApp_Image_2022-12-16_at_11.48.50_PM-removebg-preview.png">
-</head>
-
-<body>
-    <!-- NAVBAR SECTION -->
-    <nav class="navbar">
-        <div class="navbar_container">
-            <div class="container">
-                <a href="homepage.html" id="logo_link">
-                    <img id="logo" src="../assets/icon.png" alt="logo.png" />
-                </a>
+    <body>
+        <!-- NAVBAR SECTION -->
+        <nav class="navbar">
+            <div class="navbar_container">
+                <div class="container">
+                    <a href="homepage.html" id="logo_link">
+                        <img
+                            id="logo"
+                            src="../assets/icon.png"
+                            alt="logo.png"
+                        />
+                    </a>
+                </div>
+                <ul class="menu">
+                    <li class="navbar_item">
+                        <a href="fashion.html" class="navbar_link">FASHION</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="makeup.html" class="navbar_link">MAKEUP</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="skincare.html" class="navbar_link">SKINCARE</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="grooming.html" class="navbar_link">GROOMING</a>
+                    </li>
+                </ul>
+                <div class="navbar_icon">
+                    <a href="profile.html" class="navbar_link_icon">
+                        <i class="bi bi-person user"></i>
+                    </a>
+                    <a href="wishlist.html" class="navbar_link_icon">
+                        <i class="bi bi-heart wishlist"></i>
+                    </a>
+                </div>
             </div>
-            <ul class="menu">
-                <li class="navbar_item">
-                    <a href="fashion.html" class="navbar_link">FASHION</a>
-                </li>
-                <li class="navbar_item">
-                    <a href="makeup.html" class="navbar_link">MAKEUP</a>
-                </li>
-                <li class="navbar_item">
-                    <a href="skincare.html" class="navbar_link">SKINCARE</a>
-                </li>
-                <li class="navbar_item">
-                    <a href="grooming.html" class="navbar_link">GROOMING</a>
-                </li>
-            </ul>
-            <div class="navbar_icon">
-                <a href="profile.html" class="navbar_link_icon">
-                    <i class="bi bi-person user"></i>
-                </a>
-                <a href="wishlist.html" class="navbar_link_icon">
-                    <i class="bi bi-heart wishlist"></i>
-                </a>
-            </div>
-        </div>
-    </nav>
+        </nav>
 
-    <!-- ARTICLE SECTION -->
-    <div class="article">
-        <div class="article_image">
-            <img src="../assets/article_banner.png" alt="article.png" />
-        </div>
-        <div class="article_text">
-            <h4 class="fashion">FASHION</h4>
-            <p class="paragraph_text">
-                Black Friday sale 2022 in Malaysia: <br />The best deals to enjoy from fashion <br /> to lifestyle
-            </p>
-            <p class="author_name">SYAMIM IRFAN</p>
-            <button class="article_button">
+        <!-- ARTICLE SECTION -->
+        <div class="article">
+            <div class="article_image">
+                <img src="../assets/article_banner.png" alt="article.png" />
+            </div>
+            <div class="article_text">
+                <h4 class="fashion">FASHION</h4>
+                <p class="paragraph_text">
+                    Black Friday sale 2022 in Malaysia: <br />The best deals to
+                    enjoy from fashion <br />
+                    to lifestyle
+                </p>
+                <p class="author_name">SYAMIM IRFAN</p>
+                <button class="article_button">
                     <a href="">READ THE ARTICLE</a>
                 </button>
+            </div>
         </div>
-    </div>
 
-    <!-- TOP ARTICLES SECTION -->
-    <div class="header_article">
-        <p class="header_text">TODAY'S TOP ARTICLES</p>
-        <hr class="line_header" />
-    </div>
-    <div class="top_article">
-        <div class="main_tutorials">
-            <div class="tutorial" id="article-homepage">
-                <!-- <div class="tutorials_card">
+        <!-- TOP ARTICLES SECTION -->
+        <div class="header_article">
+            <p class="header_text">TODAY'S TOP ARTICLES</p>
+            <hr class="line_header" />
+        </div>
+        <div class="top_article">
+            <div class="main_tutorials">
+                <div class="tutorial" id="article-homepage">
+                    <!-- <div class="tutorials_card">
                     <div class="tutorials_item">
                         <a href="">
                             <img src="../assets/article_banner.png" alt="" /></a>
@@ -154,14 +165,14 @@
                         </p>
                     </div>
                 </div> -->
-            </div>
-
-            <div class="popular_articles">
-                <div class="popular_title">
-                    <p class="popular_header">POPULAR ARTICLES</p>
                 </div>
-                <div id="popular-article">
-                    <!-- <hr class="popular_horizontal" />
+
+                <div class="popular_articles">
+                    <div class="popular_title">
+                        <p class="popular_header">POPULAR ARTICLES</p>
+                    </div>
+                    <div id="popular-article">
+                        <!-- <hr class="popular_horizontal" />
                 <div class="popular_item">
                     <h3 class="popular_date">7 SEPTEMBER 2022</h3>
                     <p class="popular_description">
@@ -189,165 +200,190 @@
                         10 Skincare Products Worth Splurging on for the Holidays
                     </p>
                 </div>  -->
+                    </div>
                 </div>
-
             </div>
         </div>
-    </div>
 
-    <!-- CATEGORIES SECTION -->
-    <div class="category">
-        <div class="category_fashion">
-            <div class="category_container">
-                <h2 class="category_header">FASHION</h2>
-                <p class="category_description">
-                    People with a confident work and fashion style are not afraid to try new work-appropriate designs from time to time.
-                </p>
-                <button class="category_button">
+        <!-- CATEGORIES SECTION -->
+        <div class="category">
+            <div class="category_fashion">
+                <div class="category_container">
+                    <h2 class="category_header">FASHION</h2>
+                    <p class="category_description">
+                        People with a confident work and fashion style are not
+                        afraid to try new work-appropriate designs from time to
+                        time.
+                    </p>
+                    <button class="category_button">
                         <a href="fashion.html">READ THE ARTICLE</a>
                     </button>
+                </div>
+            </div>
+            <div class="category_image">
+                <img src="../assets/Fashion.jpg" alt="Fashion.jpg" />
             </div>
         </div>
-        <div class="category_image">
-            <img src="../assets/Fashion.jpg" alt="Fashion.jpg" />
-        </div>
-    </div>
-    <div class="category">
-        <div class="category_image">
-            <img src="../assets/Makeup.jpg" alt="Makeup.jpg" />
-        </div>
-        <div class="category_makeup">
-            <div class="category_container">
-                <h2 class="category_header">MAKEUP</h2>
-                <p class="category_description">
-                    Achieve flawless makeup that lasts all day with this simple, step-by-step tutorial.
-                </p>
-                <button class="category_button">
+        <div class="category">
+            <div class="category_image">
+                <img src="../assets/Makeup.jpg" alt="Makeup.jpg" />
+            </div>
+            <div class="category_makeup">
+                <div class="category_container">
+                    <h2 class="category_header">MAKEUP</h2>
+                    <p class="category_description">
+                        Achieve flawless makeup that lasts all day with this
+                        simple, step-by-step tutorial.
+                    </p>
+                    <button class="category_button">
                         <a href="makeup.html">READ THE ARTICLE</a>
                     </button>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="category">
-        <div class="category_skincare">
-            <div class="category_container">
-                <h2 class="category_header">SKINCARE</h2>
-                <p class="category_description">
-                    Skin care is a range of practices that support skin integrity, enhance its appearance, and relieve skin conditions.
-                </p>
-                <button class="category_button">
+        <div class="category">
+            <div class="category_skincare">
+                <div class="category_container">
+                    <h2 class="category_header">SKINCARE</h2>
+                    <p class="category_description">
+                        Skin care is a range of practices that support skin
+                        integrity, enhance its appearance, and relieve skin
+                        conditions.
+                    </p>
+                    <button class="category_button">
                         <a href="skincare.html">READ THE ARTICLE</a>
                     </button>
+                </div>
+            </div>
+            <div class="category_image">
+                <img src="../assets/Skincare.jpg" alt="Skincare.jpg" />
             </div>
         </div>
-        <div class="category_image">
-            <img src="../assets/Skincare.jpg" alt="Skincare.jpg" />
-        </div>
-    </div>
 
-    <div class="category">
-        <div class="category_image">
-            <img src="../assets/Grooming.jpg" alt="Grooming.jpg" />
-        </div>
-        <div class="category_grooming">
-            <div class="category_container">
-                <h2 class="category_header">GROOMING</h2>
-                <p class="category_description">
-                    The over 100 hairstyles and haircuts presented in this article are from the world’s best barbers and styling A-class celebrities, so you’re in the best hands.
-                </p>
-                <button class="category_button">
+        <div class="category">
+            <div class="category_image">
+                <img src="../assets/Grooming.jpg" alt="Grooming.jpg" />
+            </div>
+            <div class="category_grooming">
+                <div class="category_container">
+                    <h2 class="category_header">GROOMING</h2>
+                    <p class="category_description">
+                        The over 100 hairstyles and haircuts presented in this
+                        article are from the world’s best barbers and styling
+                        A-class celebrities, so you’re in the best hands.
+                    </p>
+                    <button class="category_button">
                         <a href="grooming.html">READ THE ARTICLE</a>
                     </button>
+                </div>
             </div>
         </div>
-    </div>
 
-    <!-- FOOTER SECTION -->
-    <footer class="footer">
-        <div class="footer_container">
-            <div class="first_footer">
-                <div class="footer_logo">
-                    <img class="logo_footer" src="../assets/icon.png" alt="logo.png" />
-                </div>
-                <p class="address">No. 15, Jalan Universiti 22,</p>
-                <p class="address">86400 Parit Raja, Batu Pahat,</p>
-                <p class="address">Johor, Malaysia</p>
-                <p class="phone_number">+ 60123456789</p>
-                <p class="email">groupwebdev@gmail.com</p>
-            </div>
-
-            <div class="second_footer">
-                <div class="company">
-                    <p class="about">About Company</p>
-                    <hr class="horizontal_1" />
-                    <p class="company_details">
-                        Beautyst Website developed to help users gain new beauty and grooming knowledge, and improve user’s self-esteem and selfconfidence
-                    </p>
+        <!-- FOOTER SECTION -->
+        <footer class="footer">
+            <div class="footer_container">
+                <div class="first_footer">
+                    <div class="footer_logo">
+                        <img
+                            class="logo_footer"
+                            src="../assets/icon.png"
+                            alt="logo.png"
+                        />
+                    </div>
+                    <p class="address">No. 15, Jalan Universiti 22,</p>
+                    <p class="address">86400 Parit Raja, Batu Pahat,</p>
+                    <p class="address">Johor, Malaysia</p>
+                    <p class="phone_number">+ 60123456789</p>
+                    <p class="email">groupwebdev@gmail.com</p>
                 </div>
 
-                <div class="menu_list">
-                    <p class="menu_items">Menu</p>
-                    <hr class="horizontal_2" />
-                    <p class="menu_child">
-                        <a href="" class="menu_child">Home</a>
-                    </p>
-                    <p class="menu_child">
-                        <a href="" class="menu_child">Fashion</a>
-                    </p>
-                    <p class="menu_child">
-                        <a href="" class="menu_child">Makeup</a>
-                    </p>
-                    <p class="menu_child">
-                        <a href="" class="menu_child">Skincare</a>
-                    </p>
-                    <p class="menu_child">
-                        <a href="" class="menu_child">Grooming</a>
-                    </p>
-                    <p class="menu_child">
-                        <a href="" class="menu_child">Profile</a>
-                    </p>
+                <div class="second_footer">
+                    <div class="company">
+                        <p class="about">About Company</p>
+                        <hr class="horizontal_1" />
+                        <p class="company_details">
+                            Beautyst Website developed to help users gain new
+                            beauty and grooming knowledge, and improve user’s
+                            self-esteem and selfconfidence
+                        </p>
+                    </div>
+
+                    <div class="menu_list">
+                        <p class="menu_items">Menu</p>
+                        <hr class="horizontal_2" />
+                        <p class="menu_child">
+                            <a href="fashion.html" class="menu_child"
+                                >Fashion</a
+                            >
+                        </p>
+                        <p class="menu_child">
+                            <a href="makeup.html" class="menu_child">Makeup</a>
+                        </p>
+                        <p class="menu_child">
+                            <a href="skincare.html" class="menu_child"
+                                >Skincare</a
+                            >
+                        </p>
+                        <p class="menu_child">
+                            <a href="grooming.html" class="menu_child"
+                                >Grooming</a
+                            >
+                        </p>
+                        <p class="menu_child">
+                            <a href="profile.html" class="menu_child"
+                                >Profile</a
+                            >
+                        </p>
+                        <p class="menu_child">
+                            <a href="contact-us.html" class="menu_child"
+                                >Contact Us</a
+                            >
+                        </p>
+                    </div>
+
+                    <div class="follow_us">
+                        <p class="follow">Follow Us</p>
+                        <hr class="horizontal_3" />
+                        <p class="follow_link">
+                            <a href="" class="follow_link">Twitter</a>
+                        </p>
+                        <p class="follow_link">
+                            <a href="" class="follow_link">Facebook</a>
+                        </p>
+                        <p class="follow_link">
+                            <a href="" class="follow_link">Instagram</a>
+                        </p>
+                    </div>
                 </div>
 
-                <div class="follow_us">
-                    <p class="follow">Follow Us</p>
-                    <hr class="horizontal_3" />
-                    <p class="follow_link">
-                        <a href="" class="follow_link">Twitter</a>
+                <div class="third_footer">
+                    <p class="update">Get Updates</p>
+                    <hr class="horizontal_4" />
+                    <p class="update_description">
+                        Let us know your email to get the latest news of us.
                     </p>
-                    <p class="follow_link">
-                        <a href="" class="follow_link">Facebook</a>
-                    </p>
-                    <p class="follow_link">
-                        <a href="" class="follow_link">Instagram</a>
-                    </p>
-                </div>
-            </div>
-
-            <div class="third_footer">
-                <p class="update">Get Updates</p>
-                <hr class="horizontal_4" />
-                <p class="update_description">
-                    Let us know your email to get the latest news of us.
-                </p>
-                <form action="" method="" class="email_address">
-                    <input type="text" class="email_third_footer" placeholder="Email Address.." />
-                    <button class="send">
+                    <form action="" method="" class="email_address">
+                        <input
+                            type="text"
+                            class="email_third_footer"
+                            placeholder="Email Address.."
+                        />
+                        <button class="send">
                             <a href=""
                                 ><i class="bi bi-envelope-fill mail"></i
                             ></a>
                         </button>
-                </form>
+                    </form>
+                </div>
             </div>
-        </div>
-        <div>
-            <p class="copyright">
-                Copyright © 2022 Beautyst Website All rights reserved.
-            </p>
-        </div>
-    </footer>
-    <script src="../node_modules/pocketbase/dist/pocketbase.umd.js"></script>
-    <script src="../scripts/homepage.js"></script>
-</body>
-
+            <div>
+                <p class="copyright">
+                    Copyright © 2022 Beautyst Website All rights reserved.
+                </p>
+            </div>
+        </footer>
+        <script src="../node_modules/pocketbase/dist/pocketbase.umd.js"></script>
+        <script src="../scripts/homepage.js"></script>
+    </body>
 </html>

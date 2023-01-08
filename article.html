@@ -1,70 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../css/article.css" />
+        <!--Font Awesome Icons-->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+        />
+        <title>Fashion Article</title>
+        <link
+            rel="icon"
+            href="/assets/WhatsApp_Image_2022-12-16_at_11.48.50_PM-removebg-preview.png"
+        />
+    </head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/article.css" />
-    <!--Font Awesome Icons-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" />
-    <title>Fashion Article</title>
-    <link rel="icon" href="/assets/WhatsApp_Image_2022-12-16_at_11.48.50_PM-removebg-preview.png">
-</head>
-
-<body>
-    <!-- NAVBAR SECTION -->
-    <nav class="navbar">
-        <div class="navbar_container">
-            <div class="container">
-                <a href="homepage.html" id="logo_link">
-                    <img id="logo" src="../assets/icon.png" alt="logo.png" />
-                </a>
+    <body>
+        <!-- NAVBAR SECTION -->
+        <nav class="navbar">
+            <div class="navbar_container">
+                <div class="container">
+                    <a href="homepage.html" id="logo_link">
+                        <img
+                            id="logo"
+                            src="../assets/icon.png"
+                            alt="logo.png"
+                        />
+                    </a>
+                </div>
+                <ul class="menu">
+                    <li class="navbar_item">
+                        <a href="fashion.html" class="navbar_link">FASHION</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="makeup.html" class="navbar_link">MAKEUP</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="skincare.html" class="navbar_link">SKINCARE</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="grooming.html" class="navbar_link">GROOMING</a>
+                    </li>
+                </ul>
+                <div class="navbar_icon">
+                    <a href="profile.html" class="navbar_link_icon">
+                        <i class="bi bi-person user"></i>
+                    </a>
+                    <a href="wishlist.html" class="navbar_link_icon">
+                        <i class="bi bi-heart wishlist"></i>
+                    </a>
+                </div>
             </div>
-            <ul class="menu">
-                <li class="navbar_item">
-                    <a href="fashion.html" class="navbar_link">FASHION</a>
-                </li>
-                <li class="navbar_item">
-                    <a href="makeup.html" class="navbar_link">MAKEUP</a>
-                </li>
-                <li class="navbar_item">
-                    <a href="skincare.html" class="navbar_link">SKINCARE</a>
-                </li>
-                <li class="navbar_item">
-                    <a href="grooming.html" class="navbar_link">GROOMING</a>
-                </li>
-            </ul>
-            <div class="navbar_icon">
-                <a href="profile.html" class="navbar_link_icon">
-                    <i class="bi bi-person user"></i>
-                </a>
-                <a href="wishlist.html" class="navbar_link_icon">
-                    <i class="bi bi-heart wishlist"></i>
-                </a>
+        </nav>
+
+        <!-- ARTICLE SECTION -->
+        <div class="article">
+            <div class="article_image" id="article-image">
+                <!-- <img src="../assets/fashion.png" alt="article.png" /> -->
             </div>
         </div>
-    </nav>
-
-    <!-- ARTICLE SECTION -->
-    <div class="article">
-        <div class="article_image" id="article-image">
-            <!-- <img src="../assets/fashion.png" alt="article.png" /> -->
-        </div>
-    </div>
-    <div class="article_information">
-        <div class="article_text" id="article-text">
-            <!-- <p class="article_category">FASHION</p>
+        <div class="article_information">
+            <div class="article_text" id="article-text">
+                <!-- <p class="article_category">FASHION</p>
             <p class="article_title">
                 How to go to class in an outfit that looks stunning to attract your crush
             </p> -->
+            </div>
         </div>
-    </div>
 
-    <!-- ARTICLE CONTENT SECTION -->
+        <!-- ARTICLE CONTENT SECTION -->
 
-    <div class="header_article" id="main-article">
-        <!-- <div class="header_author">
+        <div class="header_article" id="main-article">
+            <!-- <div class="header_author">
             <div class="author_section">
                 <p class="author_name">Azri Ishraf</p>
                 <div class="ver"></div>
@@ -104,93 +113,112 @@
                 </p>
             </div>
         </div> -->
-    </div>
+        </div>
 
-    <!-- FOOTER SECTION -->
-    <footer class="footer">
-        <div class="footer_container">
-            <div class="first_footer">
-                <div class="footer_logo">
-                    <img class="logo_footer" src="../assets/icon.png" alt="logo.png" />
-                </div>
-                <p class="address">No. 15, Jalan Universiti 22,</p>
-                <p class="address">86400 Parit Raja, Batu Pahat,</p>
-                <p class="address">Johor, Malaysia</p>
-                <p class="phone_number">+ 60123456789</p>
-                <p class="email">groupwebdev@gmail.com</p>
-            </div>
-
-            <div class="second_footer">
-                <div class="company">
-                    <p class="about">About Company</p>
-                    <hr class="horizontal_1" />
-                    <p class="company_details">
-                        Beautyst Website developed to help users gain new beauty and grooming knowledge, and improve user’s self-esteem and selfconfidence
-                    </p>
+        <!-- FOOTER SECTION -->
+        <footer class="footer">
+            <div class="footer_container">
+                <div class="first_footer">
+                    <div class="footer_logo">
+                        <img
+                            class="logo_footer"
+                            src="../assets/icon.png"
+                            alt="logo.png"
+                        />
+                    </div>
+                    <p class="address">No. 15, Jalan Universiti 22,</p>
+                    <p class="address">86400 Parit Raja, Batu Pahat,</p>
+                    <p class="address">Johor, Malaysia</p>
+                    <p class="phone_number">+ 60123456789</p>
+                    <p class="email">groupwebdev@gmail.com</p>
                 </div>
 
-                <div class="menu_list">
-                    <p class="menu_items">Menu</p>
-                    <hr class="horizontal_2" />
-                    <p class="menu_child">
-                        <a href="" class="menu_child">Home</a>
-                    </p>
-                    <p class="menu_child">
-                        <a href="" class="menu_child">Fashion</a>
-                    </p>
-                    <p class="menu_child">
-                        <a href="" class="menu_child">Makeup</a>
-                    </p>
-                    <p class="menu_child">
-                        <a href="" class="menu_child">Skincare</a>
-                    </p>
-                    <p class="menu_child">
-                        <a href="" class="menu_child">Grooming</a>
-                    </p>
-                    <p class="menu_child">
-                        <a href="" class="menu_child">Profile</a>
-                    </p>
+                <div class="second_footer">
+                    <div class="company">
+                        <p class="about">About Company</p>
+                        <hr class="horizontal_1" />
+                        <p class="company_details">
+                            Beautyst Website developed to help users gain new
+                            beauty and grooming knowledge, and improve user’s
+                            self-esteem and selfconfidence
+                        </p>
+                    </div>
+
+                    <div class="menu_list">
+                        <p class="menu_items">Menu</p>
+                        <hr class="horizontal_2" />
+                        <p class="menu_child">
+                            <a href="fashion.html" class="menu_child"
+                                >Fashion</a
+                            >
+                        </p>
+                        <p class="menu_child">
+                            <a href="makeup.html" class="menu_child">Makeup</a>
+                        </p>
+                        <p class="menu_child">
+                            <a href="skincare.html" class="menu_child"
+                                >Skincare</a
+                            >
+                        </p>
+                        <p class="menu_child">
+                            <a href="grooming.html" class="menu_child"
+                                >Grooming</a
+                            >
+                        </p>
+                        <p class="menu_child">
+                            <a href="profile.html" class="menu_child"
+                                >Profile</a
+                            >
+                        </p>
+                        <p class="menu_child">
+                            <a href="contact-us.html" class="menu_child"
+                                >Contact Us</a
+                            >
+                        </p>
+                    </div>
+
+                    <div class="follow_us">
+                        <p class="follow">Follow Us</p>
+                        <hr class="horizontal_3" />
+                        <p class="follow_link">
+                            <a href="" class="follow_link">Twitter</a>
+                        </p>
+                        <p class="follow_link">
+                            <a href="" class="follow_link">Facebook</a>
+                        </p>
+                        <p class="follow_link">
+                            <a href="" class="follow_link">Instagram</a>
+                        </p>
+                    </div>
                 </div>
 
-                <div class="follow_us">
-                    <p class="follow">Follow Us</p>
-                    <hr class="horizontal_3" />
-                    <p class="follow_link">
-                        <a href="" class="follow_link">Twitter</a>
+                <div class="third_footer">
+                    <p class="update">Get Updates</p>
+                    <hr class="horizontal_4" />
+                    <p class="update_description">
+                        Let us know your email to get the latest news of us.
                     </p>
-                    <p class="follow_link">
-                        <a href="" class="follow_link">Facebook</a>
-                    </p>
-                    <p class="follow_link">
-                        <a href="" class="follow_link">Instagram</a>
-                    </p>
-                </div>
-            </div>
-
-            <div class="third_footer">
-                <p class="update">Get Updates</p>
-                <hr class="horizontal_4" />
-                <p class="update_description">
-                    Let us know your email to get the latest news of us.
-                </p>
-                <form action="" method="" class="email_address">
-                    <input type="text" class="email_third_footer" placeholder="Email Address.." />
-                    <button class="send">
+                    <form action="" method="" class="email_address">
+                        <input
+                            type="text"
+                            class="email_third_footer"
+                            placeholder="Email Address.."
+                        />
+                        <button class="send">
                             <a href=""
                                 ><i class="bi bi-envelope-fill mail"></i
                             ></a>
                         </button>
-                </form>
+                    </form>
+                </div>
             </div>
-        </div>
-        <div>
-            <p class="copyright">
-                Copyright © 2022 Beautyst Website All rights reserved.
-            </p>
-        </div>
-    </footer>
-    <script src="../node_modules/pocketbase/dist/pocketbase.umd.js"></script>
-    <script src="../scripts/user-article.js"></script>
-</body>
-
+            <div>
+                <p class="copyright">
+                    Copyright © 2022 Beautyst Website All rights reserved.
+                </p>
+            </div>
+        </footer>
+        <script src="../node_modules/pocketbase/dist/pocketbase.umd.js"></script>
+        <script src="../scripts/user-article.js"></script>
+    </body>
 </html>
