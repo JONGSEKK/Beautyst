@@ -11,6 +11,7 @@
     <!-- Font Awesome Icons -->
     <script src="https://kit.fontawesome.com/0b36ed70f7.js" crossorigin="anonymous"></script>
     <title>Admin | Create Article</title>
+    <link rel="icon" href="/assets/WhatsApp_Image_2022-12-16_at_11.48.50_PM-removebg-preview.png">
 </head>
 
 <body>
@@ -30,7 +31,7 @@
                         >
                     </li>
                     <li class="navbar_item" id="active">
-                        <a href="" class="navbar_link"
+                        <a href="admin-article.html" class="navbar_link"
                             ><i class="bi bi-file-text-fill"></i> &nbsp;
                             Articles</a
                         >
@@ -56,13 +57,13 @@
             <h4 class="title">Create Article</h4>
         </div>
         <div class="content-article">
-            <form action="" class="form-article">
+            <form action="" class="form-article" id="article" enctype="multipart/form-data">
                 <div class="container1">
                     <div class="input-container">
                         <label for="" class="name">Author's Name:</label>
-                        <input type="text" class="input-text">
+                        <input type="text" class="input-text" id="authorName">
                         <label for="" class="title">Author's Title:</label>
-                        <input type="text" class="input-text">
+                        <input type="text" class="input-text" id="articleTitle">
                         <div class="input-container-category">
                             <label for="" class="category">Category:</label>
                             <select name="category" id="category-select">
@@ -76,24 +77,27 @@
 
                     <div class="upload">
                         <label for="" class="image">Article Image:</label>
-                        <input type="file" id="img" title="" value="" style="display:none;">
-                        <label for="img" class="upload-image"><i class="bi bi-card-image icon-image"></i></label>
-                        <p class="less-than">*Max upload image: 10MB</p>
+                        <div class="divgambar">
+                            <input accept="images/*" type="file" id="img">
+                        </div>
+                        <p class="less-than">*Max upload image: 100MB</p>
                         <label for="" class="video">Article Video:</label>
-                        <input type="file" id="vdo" title="" value="" style="display:none;">
-                        <label for="img" class="upload-video"><i class="bi bi-camera-video-fill icon-video"></i></label>
+                        <div class="divvideo">
+                            <input type="file" id="vdo">
+                        </div>
                         <p class="less-than">*Max upload video: 100MB</p>
                     </div>
+
                 </div>
                 <div class="container2">
                     <label for="" class="paragraph1">Article Content (Paragraph 1):</label>
-                    <textarea name="input-paragraph1" placeholder="Write paragraph 1 here" id="" cols="30" rows="10"></textarea>
+                    <textarea name="input-paragraph1" placeholder="Write paragraph 1 here" id="textarea1" cols="30" rows="10"></textarea>
                     <label for="" class="paragraph2">Article Content (Paragraph 2):</label>
-                    <textarea name="input-paragraph2" placeholder="Write paragraph 2 here" id="" cols="30" rows="10"></textarea>
+                    <textarea name="input-paragraph2" placeholder="Write paragraph 2 here" id="textarea2" cols="30" rows="10"></textarea>
                 </div>
 
                 <div class="container3">
-                    <button class="submit">Submit</button>
+                    <button type="submit" class="submit">Submit</button>
                     <button class="cancel"><a href="admin-article.html" class="cancel-link">Cancel</a></button>
                 </div>
             </form>
@@ -103,7 +107,10 @@
 
     </div>
     </div>
-    <script src="./scripts/admin.js"></script>
+    <script src="../node_modules/pocketbase/dist/pocketbase.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script src="../scripts/add-article.js" asp-append-version="true"></script>
+
 </body>
 
 </html>

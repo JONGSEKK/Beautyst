@@ -105,7 +105,7 @@
     padding: 20px;
     background-color: #F3F6F9;
     margin-top: 50px;
-    margin-left: 260px;
+    margin-left: 270px;
 }
 
 .container1 {
@@ -168,6 +168,7 @@ textarea:focus {
 .less-than {
     text-align: center;
     margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 .input-container {
@@ -219,4 +220,26 @@ textarea {
 
 .submit:hover {
     background-color: #9e6f0a;
+}
+
+#img::file-selector-button {
+    display: block;
+    padding: 10px 15px;
+    width: 100%;
+    background-color: #FFFCFC;
+    color: #543d06;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#vdo::file-selector-button {
+    display: block;
+    padding: 10px 15px;
+    width: 100%;
+    background-color: #FFFCFC;
+    color: #543d06;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
 }

@@ -1,175 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="../css/profile.css" />
-        <!--Font Awesome Icons-->
-        <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
-        />
-        <title>My Profile</title>
-    </head>
 
-    <body>
-        <!-- NAVBAR SECTION -->
-        <nav class="navbar">
-            <div class="navbar_container">
-                <div class="container">
-                    <a href="index.html" id="logo_link">
-                        <img
-                            id="logo"
-                            src="../assets/icon.png"
-                            alt="logo.png"
-                        />
-                    </a>
-                </div>
-                <ul class="menu">
-                    <li class="navbar_item">
-                        <a href="fashion.html" class="navbar_link">FASHION</a>
-                    </li>
-                    <li class="navbar_item">
-                        <a href="makeup.html" class="navbar_link">MAKEUP</a>
-                    </li>
-                    <li class="navbar_item">
-                        <a href="skincare.html" class="navbar_link">SKINCARE</a>
-                    </li>
-                    <li class="navbar_item">
-                        <a href="grooming.html" class="navbar_link">GROOMING</a>
-                    </li>
-                </ul>
-                <div class="navbar_icon">
-                    <a href="login.html" class="navbar_link_icon">
-                        <i class="bi bi-person user"></i>
-                    </a>
-                    <a href="wishlist.html" class="navbar_link_icon">
-                        <i class="bi bi-heart wishlist"></i>
-                    </a>
-                </div>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/profile.css" />
+    <!--Font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" />
+    <title>My Profile</title>
+    <link rel="icon" href="/assets/WhatsApp_Image_2022-12-16_at_11.48.50_PM-removebg-preview.png">
+</head>
+
+<body>
+    <!-- NAVBAR SECTION -->
+    <nav class="navbar">
+        <div class="navbar_container">
+            <div class="container">
+                <a href="homepage.html" id="logo_link">
+                    <img id="logo" src="../assets/icon.png" alt="logo.png" />
+                </a>
             </div>
-        </nav>
-
-        <!-- ARTICLE SECTION -->
-        <div class="article">
-            <div class="article_image">
-                <img src="../assets/profile.png" alt="article.png" />
-                <h4 class="text_center">MY PROFILE</h4>
+            <ul class="menu">
+                <li class="navbar_item">
+                    <a href="fashion.html" class="navbar_link">FASHION</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="makeup.html" class="navbar_link">MAKEUP</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="skincare.html" class="navbar_link">SKINCARE</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="grooming.html" class="navbar_link">GROOMING</a>
+                </li>
+            </ul>
+            <div class="navbar_icon">
+                <a href="profile.html" class="navbar_link_icon">
+                    <i class="bi bi-person user"></i>
+                </a>
+                <a href="wishlist.html" class="navbar_link_icon">
+                    <i class="bi bi-heart wishlist"></i>
+                </a>
             </div>
         </div>
+    </nav>
 
-        <!-- PROFILE SECTION -->
-        <div class="profile">
-            <h1>Hi! &nbsp</h1>
+    <!-- ARTICLE SECTION -->
+    <div class="article">
+        <div class="article_image">
+            <img src="../assets/profile.png" alt="article.png" />
+            <h4 class="text_center">MY PROFILE</h4>
+        </div>
+    </div>
+
+    <!-- PROFILE SECTION -->
+    <div class="profile">
+        <div class="logout">
+            <button class="button-logout" onclick="document.getElementById('id01').style.display='block'" style="cursor: pointer;">
+                <i class="bi bi-box-arrow-left button-logout"> &nbsp 
+
+               </i>
+            </button>
+        </div>
+        <div id="user_info">
+            <!-- <h1>Hi! &nbsp</h1>
             <h1 class="fullName">Azri Ishraf</h1>
             <p>First Name</p>
-            <p class="fname">Azri</p>
+            <input type="text" class="fname" value="Azri">
             <p>Last Name</p>
-            <p class="lname">Ishraf</p>
+            <input type="text" class="lname" value="Ishraf">
             <p>Username</p>
-            <p class="username">azrishrf</p>
+            <input type="text" class="username" value="azrishrf">
             <p>Email</p>
-            <p class="email">ishrafazri@gmail.com</p>
+            <input type="text" class="email" value="ishrafazri@gmail.com">
             <br />
-            <p class="logout">
-                <i class="bi bi-box-arrow-left button-logout"></i>&nbsp; &nbsp;
-                Log Out
-            </p>
+            <p class="submit">
+                <a href="" id="submit"> Submit</a>
+            </p> -->
         </div>
+        <div id="id01" class="modal">
 
-        <!-- FOOTER SECTION -->
-        <footer class="footer">
-            <div class="footer_container">
-                <div class="first_footer">
-                    <div class="footer_logo">
-                        <img
-                            class="logo_footer"
-                            src="../assets/icon.png"
-                            alt="logo.png"
-                        />
-                    </div>
-                    <p class="address">No. 15, Jalan Universiti 22,</p>
-                    <p class="address">86400 Parit Raja, Batu Pahat,</p>
-                    <p class="address">Johor, Malaysia</p>
-                    <p class="phone_number">+ 60123456789</p>
-                    <p class="email-company">groupwebdev@gmail.com</p>
-                </div>
+            <div class="modal-content">
+                <div class="container">
+                    <h1>Logout Account</h1>
+                    <p class="p-delete">Are you sure you want to logout?</p>
 
-                <div class="second_footer">
-                    <div class="company">
-                        <p class="about">About Company</p>
-                        <hr class="horizontal_1" />
-                        <p class="company_details">
-                            Beautyst Website developed to help users gain new
-                            beauty and grooming knowledge, and improve user’s
-                            self-esteem and selfconfidence
-                        </p>
-                    </div>
-
-                    <div class="menu_list">
-                        <p class="menu_items">Menu</p>
-                        <hr class="horizontal_2" />
-                        <p class="menu_child">
-                            <a href="" class="menu_child">Home</a>
-                        </p>
-                        <p class="menu_child">
-                            <a href="" class="menu_child">Fashion</a>
-                        </p>
-                        <p class="menu_child">
-                            <a href="" class="menu_child">Makeup</a>
-                        </p>
-                        <p class="menu_child">
-                            <a href="" class="menu_child">Skincare</a>
-                        </p>
-                        <p class="menu_child">
-                            <a href="" class="menu_child">Grooming</a>
-                        </p>
-                        <p class="menu_child">
-                            <a href="" class="menu_child">Profile</a>
-                        </p>
-                    </div>
-
-                    <div class="follow_us">
-                        <p class="follow">Follow Us</p>
-                        <hr class="horizontal_3" />
-                        <p class="follow_link">
-                            <a href="" class="follow_link">Twitter</a>
-                        </p>
-                        <p class="follow_link">
-                            <a href="" class="follow_link">Facebook</a>
-                        </p>
-                        <p class="follow_link">
-                            <a href="" class="follow_link">Instagram</a>
-                        </p>
+                    <div class="clearfix">
+                        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                        <button type="button" onclick="logoutUser()" class="deletebtn">Logout</button>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
 
-                <div class="third_footer">
-                    <p class="update">Get Updates</p>
-                    <hr class="horizontal_4" />
-                    <p class="update_description">
-                        Let us know your email to get the latest news of us.
+    <!-- FOOTER SECTION -->
+    <footer class=" footer ">
+        <div class="footer_container ">
+            <div class="first_footer ">
+                <div class="footer_logo ">
+                    <img class="logo_footer " src="../assets/icon.png " alt="logo.png " />
+                </div>
+                <p class="address ">No. 15, Jalan Universiti 22,</p>
+                <p class="address ">86400 Parit Raja, Batu Pahat,</p>
+                <p class="address ">Johor, Malaysia</p>
+                <p class="phone_number ">+ 60123456789</p>
+                <p class="email-company ">groupwebdev@gmail.com</p>
+            </div>
+
+            <div class="second_footer ">
+                <div class="company ">
+                    <p class="about ">About Company</p>
+                    <hr class="horizontal_1 " />
+                    <p class="company_details ">
+                        Beautyst Website developed to help users gain new beauty and grooming knowledge, and improve user’s self-esteem and selfconfidence
                     </p>
-                    <form action="" method="" class="email_address">
-                        <input
-                            type="text"
-                            class="email_third_footer"
-                            placeholder="Email Address.."
-                        />
-                        <button class="send">
-                            <a href=""
-                                ><i class="bi bi-envelope-fill mail"></i
+                </div>
+
+                <div class="menu_list ">
+                    <p class="menu_items ">Menu</p>
+                    <hr class="horizontal_2 " />
+                    <p class="menu_child ">
+                        <a href=" " class="menu_child ">Home</a>
+                    </p>
+                    <p class="menu_child ">
+                        <a href=" " class="menu_child ">Fashion</a>
+                    </p>
+                    <p class="menu_child ">
+                        <a href=" " class="menu_child ">Makeup</a>
+                    </p>
+                    <p class="menu_child ">
+                        <a href=" " class="menu_child ">Skincare</a>
+                    </p>
+                    <p class="menu_child ">
+                        <a href=" " class="menu_child ">Grooming</a>
+                    </p>
+                    <p class="menu_child ">
+                        <a href=" " class="menu_child ">Profile</a>
+                    </p>
+                </div>
+
+                <div class="follow_us ">
+                    <p class="follow ">Follow Us</p>
+                    <hr class="horizontal_3 " />
+                    <p class="follow_link ">
+                        <a href=" " class="follow_link ">Twitter</a>
+                    </p>
+                    <p class="follow_link ">
+                        <a href=" " class="follow_link ">Facebook</a>
+                    </p>
+                    <p class="follow_link ">
+                        <a href=" " class="follow_link ">Instagram</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="third_footer ">
+                <p class="update ">Get Updates</p>
+                <hr class="horizontal_4 " />
+                <p class="update_description ">
+                    Let us know your email to get the latest news of us.
+                </p>
+                <form action=" " method=" " class="email_address ">
+                    <input type="text " class="email_third_footer " placeholder="Email Address.. " />
+                    <button class="send ">
+                            <a href=" "
+                                ><i class="bi bi-envelope-fill mail "></i
                             ></a>
                         </button>
-                    </form>
-                </div>
+                </form>
             </div>
-            <div>
-                <p class="copyright">
-                    Copyright © 2022 Beautyst Website All rights reserved.
-                </p>
-            </div>
-        </footer>
-    </body>
+        </div>
+        <div>
+            <p class="copyright ">
+                Copyright © 2022 Beautyst Website All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script src="/scripts/logout-user.js "></script>
+    <script src="../scripts/profile.js"></script>
+</body>
+
 </html>

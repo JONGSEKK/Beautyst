@@ -7,6 +7,7 @@
     font-family: "Neuton", serif;
 }
 
+
 /* NAVBAR SECTION */
 
 .navbar {
@@ -79,6 +80,10 @@
 
 .navbar_link_icon {
     margin-left: 20px;
+    background-color: white;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
 }
 
 i {
@@ -93,6 +98,7 @@ i {
 .wishlist {
     font-size: 25px;
 }
+
 
 /* ARTICLE SECTION */
 
@@ -126,6 +132,7 @@ i {
     font-size: 36px;
     color: white;
 }
+
 
 /* TOP ARTICLES SECTION */
 
@@ -192,6 +199,7 @@ video {
     font-size: 20px;
     text-align: justify;
 }
+
 
 /* FOOTER SECTION */
 

@@ -7,6 +7,7 @@
     font-family: "Neuton", serif;
 }
 
+
 /* NAVBAR SECTION */
 
 .navbar {
@@ -94,6 +95,7 @@ i {
     font-size: 25px;
 }
 
+
 /* ARTICLE SECTION */
 
 .article_image {
@@ -115,7 +117,9 @@ i {
     letter-spacing: 7px;
 }
 
+
 /* PROFILE SECTION */
+
 .profile {
     background-color: #a99d80;
     text-align: center;
@@ -124,10 +128,12 @@ i {
     border-radius: 20px;
     font-size: 18px;
 }
+
 .profile h1 {
     display: inline-block;
     margin-bottom: 20px;
 }
+
 .fname {
     background-color: white;
     width: 45%;
@@ -135,7 +141,9 @@ i {
     display: inline-block;
     border-radius: 10px;
     margin: 10px 0;
+    font-size: 24px;
 }
+
 .lname {
     background-color: white;
     width: 45%;
@@ -143,7 +151,9 @@ i {
     display: inline-block;
     border-radius: 10px;
     margin: 10px 0;
+    font-size: 24px;
 }
+
 .username {
     background-color: white;
     width: 45%;
@@ -151,7 +161,9 @@ i {
     display: inline-block;
     border-radius: 10px;
     margin: 10px 0;
+    font-size: 24px;
 }
+
 .email {
     background-color: white;
     width: 45%;
@@ -159,8 +171,22 @@ i {
     display: inline-block;
     border-radius: 10px;
     margin: 10px 0;
+    font-size: 24px;
 }
+
+#user_info {
+    height: 50%;
+}
+
 .logout {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.submit {
     margin: 20px 0;
     background-color: #5a4c2a;
     display: inline-block;
@@ -170,14 +196,120 @@ i {
     color: white;
     cursor: pointer;
 }
-.logout:hover {
+
+#signout {
+    color: white;
+    text-decoration: none;
+}
+
+#submit {
+    color: white;
+    text-decoration: none;
+}
+
+.submit:hover {
     background-color: #4e3700;
     transition: 0.5s;
 }
+
 .button-logout {
+    font-size: 40px;
+    background-color: #a99d80;
+    border: none;
     color: white;
-    font-size: 15px;
+    display: flex;
+    justify-content: flex-start;
 }
+
+.button-logout:hover {
+    color: #4e3700;
+}
+
+
+/* Set a style for all buttons */
+
+.cancelbtn,
+.deletebtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.cancelbtn,
+.deletebtn {
+    margin-top: 80px;
+    width: 20%;
+}
+
+.cancelbtn {
+    background-color: #ccc;
+    color: black;
+}
+
+.deletebtn {
+    background-color: #f44336;
+}
+
+.container {
+    padding: 16px;
+    text-align: center;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(90, 76, 42, 0.75);
+    padding-top: 50px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+    width: 50%;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.p-delete {
+    margin-top: 50px;
+}
+
 
 /* FOOTER SECTION */
 
