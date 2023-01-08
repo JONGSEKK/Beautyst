@@ -1,108 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="../css/contact-us.css" />
-        <!--Font Awesome Icons-->
-        <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
-        />
-        <title>Contact Us</title>
-    </head>
 
-    <body>
-        <!-- NAVBAR SECTION -->
-        <nav class="navbar">
-            <div class="navbar_container">
-                <div class="container">
-                    <a href="index.html" id="logo_link">
-                        <img
-                            id="logo"
-                            src="../assets/icon.png"
-                            alt="logo.png"
-                        />
-                    </a>
-                </div>
-                <ul class="menu">
-                    <li class="navbar_item">
-                        <a href="fashion.html" class="navbar_link">FASHION</a>
-                    </li>
-                    <li class="navbar_item">
-                        <a href="makeup.html" class="navbar_link">MAKEUP</a>
-                    </li>
-                    <li class="navbar_item">
-                        <a href="skincare.html" class="navbar_link">SKINCARE</a>
-                    </li>
-                    <li class="navbar_item">
-                        <a href="grooming.html" class="navbar_link">GROOMING</a>
-                    </li>
-                </ul>
-                <div class="navbar_icon">
-                    <a href="profile.html" class="navbar_link_icon">
-                        <i class="bi bi-person user"></i>
-                    </a>
-                    <a href="wishlist.html" class="navbar_link_icon">
-                        <i class="bi bi-heart wishlist"></i>
-                    </a>
-                </div>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/contact-us.css" />
+    <!--Font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" />
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <!-- NAVBAR SECTION -->
+    <nav class="navbar">
+        <div class="navbar_container">
+            <div class="container">
+                <a href="index.html" id="logo_link">
+                    <img id="logo" src="../assets/icon.png" alt="logo.png" />
+                </a>
             </div>
-        </nav>
-
-        <!-- ARTICLE SECTION -->
-        <div class="article">
-            <div class="article_image">
-                <img src="/assets/contact-us.jpg" alt="" />
-                <h4 class="text_center">CONTACT US</h4>
-                <p class="text_p">
-                    We're happy to answer any questions you have. Just send us
-                    any message in the form below with any questions you may
-                    have.
-                </p>
+            <ul class="menu">
+                <li class="navbar_item">
+                    <a href="fashion.html" class="navbar_link">FASHION</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="makeup.html" class="navbar_link">MAKEUP</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="skincare.html" class="navbar_link">SKINCARE</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="grooming.html" class="navbar_link">GROOMING</a>
+                </li>
+            </ul>
+            <div class="navbar_icon">
+                <a href="profile.html" class="navbar_link_icon">
+                    <i class="bi bi-person user"></i>
+                </a>
+                <a href="wishlist.html" class="navbar_link_icon">
+                    <i class="bi bi-heart wishlist"></i>
+                </a>
             </div>
         </div>
+    </nav>
 
-        <!-- Contact Us SECTION -->
-        <div class="profile">
-            <form id="form" class="form">
-                <div class="form-control">
-                    <label for="name">Name :</label><br />
-                    <input type="text" placeholder="Name" id="name" /><br />
-                    <small>Error message</small>
-                </div>
-                <div class="form-control">
-                    <label for="email">Email :</label><br />
-                    <input
-                        type="email"
-                        placeholder="email@email.com"
-                        id="email"
-                    /><br />
-                    <small>Error message</small>
-                </div>
-                <div class="form-control">
-                    <label for="subject">Subject :</label><br />
-                    <input
-                        type="text"
-                        placeholder="Subject"
-                        id="subject"
-                    /><br />
-                    <small>Error message</small>
-                </div>
-                <div class="form-control">
-                    <label for="comment">Comment :</label><br />
-                    <textarea
-                        rows="5"
-                        cols="93"
-                        type="text"
-                        placeholder="Comment"
-                        id="comment"
-                    ></textarea
+    <!-- ARTICLE SECTION -->
+    <div class="article">
+        <div class="article_image">
+            <img src="/assets/contact-us.jpg" alt="" />
+            <h4 class="text_center">CONTACT US</h4>
+            <p class="text_p">
+                We're happy to answer any questions you have. Just send us any message in the form below with any questions you may have.
+            </p>
+        </div>
+    </div>
+
+    <!-- Contact Us SECTION -->
+    <div class="profile">
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="name">Name :</label><br />
+                <input type="text" placeholder="Name" id="name" /><br />
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="email">Email :</label><br />
+                <input type="email" placeholder="email@email.com" id="email" /><br />
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="subject">Subject :</label><br />
+                <input type="text" placeholder="Subject" id="subject" /><br />
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="comment">Comment :</label><br />
+                <textarea rows="5" cols="93" type="text" placeholder="Comment" id="comment"></textarea
                     ><br />
                     <small>Error message</small>
                 </div>
-                <button>Submit</button>
+                <button type="submit">Submit</button>
             </form>
             <script src="/scripts/contact-us.js"></script>
         </div>

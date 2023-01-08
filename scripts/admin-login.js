@@ -65,8 +65,9 @@ function adminLogin(isNull) {
                 console.log(data)
                     //direct to homepage if it's true
                 if (!data.error) {
-                    alert("Login Successful!");
+
                     window.location.href = "admin-dashboard.html";
+                    localStorage.setItem("Password", passwordValue);
                 }
 
             })
