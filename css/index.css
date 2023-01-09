@@ -7,6 +7,7 @@
     font-family: "Neuton", serif;
 }
 
+
 /* NAVBAR SECTION */
 
 .navbar {
@@ -94,6 +95,7 @@ i {
     font-size: 25px;
 }
 
+
 /* ARTICLE SECTION */
 
 .article {
@@ -139,7 +141,7 @@ i {
     cursor: pointer;
     position: relative;
     z-index: 2;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .article_button a:hover {
@@ -162,6 +164,7 @@ i {
     width: 100%;
     color: white;
 }
+
 
 /* TOP ARTICLES SECTION */
 
@@ -258,6 +261,7 @@ i {
     margin-left: 35%;
     margin-top: 20px;
 }
+
 
 /* CATEGORIES SECTION */
 
@@ -449,6 +453,7 @@ i {
     width: 550px;
     height: 366px;
 }
+
 
 /* FOOTER SECTION */
 
