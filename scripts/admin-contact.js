@@ -84,20 +84,23 @@ function displayContactUs() {
 }
 
 function deleteContactUs(contactID) {
-    fetch('http://localhost:5133/api/ContactUs/DeleteContactUs?id=' + contactID, {
+    fetch('http://localhost:5133/api/ContactUs/' + contactID, {
         method: "DELETE",
         mode: "cors",
         headers: {
             'Content-type': 'application/json;'
         },
-    }).then(res => {
-        return res.json();
     }).then(data => {
         console.log(data);
     }).then(() => {
         location.reload();
     }).catch(error => console.log(error));
 
+}
+
+function logoutAdmin() {
+    localStorage.removeItem("Password");
+    window.location.href = "admin-login.html";
 }
 
 displayContactUs();

@@ -37,13 +37,39 @@
                             Messages</a
                         >
                     </li>
-                    <li class="navbar_item">
-                        <a href="" class="navbar_link"
+                    <li class="navbar_item" onclick="document.getElementById('id01').style.display='block'"
+                    style="cursor: pointer">
+                        <a  class="navbar_link" 
                             ><i class="bi bi-box-arrow-left"></i> &nbsp;
                             Log Out</a
                         >
                     </li>
                 </ul>
+                <div id="id01" class="modal">
+                    <div class="modal-content">
+                        <div class="container">
+                            <h1>Logout Account</h1>
+                            <p class="p-delete">Are you sure you want to logout?</p>
+    
+                            <div class="clearfix">
+                                <button
+                                    type="button"
+                                    onclick="document.getElementById('id01').style.display='none'"
+                                    class="cancelbtn"
+                                >
+                                    Cancel
+                                </button>
+                                <button
+                                    type="button"
+                                    onclick="logoutAdmin()"
+                                    class="deletebtn"
+                                >
+                                    Logout
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="content">
                 <div class="top">

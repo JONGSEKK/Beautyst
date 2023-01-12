@@ -106,4 +106,9 @@ function deleteButton(userID) {
         .catch(error => console.log(error));
 }
 
+function logoutAdmin() {
+    localStorage.removeItem("Password");
+    window.location.href = "admin-login.html";
+}
+
 displayUser();

@@ -121,4 +121,9 @@ function idToLocalStorage(articleID, createdRecordImage, createdRecordVideo) {
     sessionStorage.setItem("createdRecordVideo", createdRecordVideo);
 }
 
+function logoutAdmin() {
+    localStorage.removeItem("Password");
+    window.location.href = "admin-login.html";
+}
+
 displayArticle();
