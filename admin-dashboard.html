@@ -1,35 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="../css/admin-dashboard.css" />
-        <!--Bootstrap Icons-->
-        <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
-        />
-        <!-- Font Awesome Icons -->
-        <script
-            src="https://kit.fontawesome.com/0b36ed70f7.js"
-            crossorigin="anonymous"
-        ></script>
-        <title>Admin | Dashboard</title>
-        <link
-            rel="icon"
-            href="/assets/WhatsApp_Image_2022-12-16_at_11.48.50_PM-removebg-preview.png"
-        />
-    </head>
 
-    <body>
-        <div class="div-section">
-            <!-- NAVBAR SECTION -->
-            <div class="navbar" id="myNavbar">
-                <ul class="menu">
-                    <li class="navbar_item" id="active">
-                        <a href="admin-dashboard.html" class="navbar_link"
-                            ><i class="bi bi-house-door-fill"></i> &nbsp;
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/admin-dashboard.css" />
+    <!--Bootstrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" />
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/0b36ed70f7.js" crossorigin="anonymous"></script>
+    <title>Admin | Dashboard</title>
+    <link rel="icon" href="/assets/WhatsApp_Image_2022-12-16_at_11.48.50_PM-removebg-preview.png" />
+</head>
+
+<body>
+    <div class="div-section">
+        <!-- NAVBAR SECTION -->
+        <div class="navbar" id="myNavbar">
+            <ul class="menu">
+                <li class="navbar_item" id="active">
+                    <a href="admin-dashboard.html" class="navbar_link"><i class="bi bi-house-door-fill"></i> &nbsp;
                             Dashboard</a
                         >
                     </li>
@@ -51,7 +42,39 @@
                             Messages</a
                         >
                     </li>
+                    <li class="navbar_item" onclick="document.getElementById('id01').style.display='block'"
+                    style="cursor: pointer">
+                        <a  class="navbar_link" 
+                            ><i class="bi bi-box-arrow-left"></i> &nbsp;
+                            Log Out</a
+                        >
+                    </li>
                 </ul>
+                <div id="id01" class="modal">
+                    <div class="modal-content">
+                        <div class="container">
+                            <h1>Logout Account</h1>
+                            <p class="p-delete">Are you sure you want to logout?</p>
+    
+                            <div class="clearfix">
+                                <button
+                                    type="button"
+                                    onclick="document.getElementById('id01').style.display='none'"
+                                    class="cancelbtn"
+                                >
+                                    Cancel
+                                </button>
+                                <button
+                                    type="button"
+                                    onclick="logoutAdmin()"
+                                    class="deletebtn"
+                                >
+                                    Logout
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="content">
                 <div class="top">
@@ -66,41 +89,41 @@
                                 alt="logo.png"
                             />
                         </a>
-                    </div>
-                </div>
-                <!-- Statistic -->
-                <div class="statistic">
-                    <div class="total-div" id="total-user">
-                        <!-- <i class="bi bi-people-fill icon"></i>
+        </div>
+    </div>
+    <!-- Statistic -->
+    <div class="statistic">
+        <div class="total-div" id="total-user">
+            <!-- <i class="bi bi-people-fill icon"></i>
             <h4 class="total-title">Total Users</h4>
             <p class="total-user">6</p> -->
-                    </div>
-                    <div class="total-div" id="total-article">
-                        <!-- <i class="bi bi-journal-album icon"></i>
+        </div>
+        <div class="total-div" id="total-article">
+            <!-- <i class="bi bi-journal-album icon"></i>
             <h4 class="total-title">Total Articles</h4>
             <p class="total-user">34</p> -->
-                    </div>
-                </div>
+        </div>
+    </div>
 
-                <!-- TABLE USER -->
-                <div class="recent-user">
-                    <div class="recent-header">
-                        <h2 class="user-title">Recent User</h2>
-                        <button class="view-more">
+    <!-- TABLE USER -->
+    <div class="recent-user">
+        <div class="recent-header">
+            <h2 class="user-title">Recent User</h2>
+            <button class="view-more">
                             <a href="admin-users.html" class="view-more-link"
                                 >View More</a
                             >
                         </button>
-                    </div>
-                    <div class="table">
-                        <div class="table-header" id="header">
-                            <div class="table-header-cell">First Name</div>
-                            <div class="table-header-cell">Last Name</div>
-                            <div class="table-header-cell">Username</div>
-                            <div class="table-header-cell">Email Address</div>
-                        </div>
-                        <div class="table-body" id="body">
-                            <!-- <div class="table-row">
+        </div>
+        <div class="table">
+            <div class="table-header" id="header">
+                <div class="table-header-cell">First Name</div>
+                <div class="table-header-cell">Last Name</div>
+                <div class="table-header-cell">Username</div>
+                <div class="table-header-cell">Email Address</div>
+            </div>
+            <div class="table-body" id="body">
+                <!-- <div class="table-row">
                     <div class="table-row-cell">
                         Azri
                     </div>
@@ -142,28 +165,28 @@
                         aimanalias@gmail.com
                     </div>
                 </div> -->
-                        </div>
-                    </div>
-                </div>
-                <!-- TABLE ARTICLE -->
-                <div class="recent-user">
-                    <div class="recent-header">
-                        <h2 class="user-title">Recent Article</h2>
-                        <button class="view-more">
+            </div>
+        </div>
+    </div>
+    <!-- TABLE ARTICLE -->
+    <div class="recent-user">
+        <div class="recent-header">
+            <h2 class="user-title">Recent Article</h2>
+            <button class="view-more">
                             <a href="admin-article.html" class="view-more-link"
                                 >View More</a
                             >
                         </button>
-                    </div>
-                    <div class="table">
-                        <div class="table-header" id="header-article">
-                            <div class="table-header-cell">Article Name</div>
-                            <div class="table-header-cell">Category Name</div>
-                            <div class="table-header-cell">Author</div>
-                            <div class="table-header-cell">Date</div>
-                        </div>
-                        <div class="table-body" id="body-article">
-                            <!-- <div class="table-row">
+        </div>
+        <div class="table">
+            <div class="table-header" id="header-article">
+                <div class="table-header-cell">Article Name</div>
+                <div class="table-header-cell">Category Name</div>
+                <div class="table-header-cell">Author</div>
+                <div class="table-header-cell">Date</div>
+            </div>
+            <div class="table-body" id="body-article">
+                <!-- <div class="table-row">
                     <div class="table-row-cell">
                         Articles 1
                     </div>
@@ -205,12 +228,13 @@
                         10 December 2022
                     </div>
                 </div> -->
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
+    </div>
+    </div>
+    </div>
 
-        <script src="../scripts/admin.js"></script>
-    </body>
+    <script src="../scripts/admin.js"></script>
+</body>
+
 </html>

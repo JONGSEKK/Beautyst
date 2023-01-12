@@ -139,6 +139,11 @@ function displayArticle() {
         .catch(error => console.log(error));
 }
 
+function logoutAdmin() {
+    localStorage.removeItem("Password");
+    window.location.href = "admin-login.html";
+}
+
 displayUser();
 displayArticle();
 getTotalUser();
