@@ -58,8 +58,8 @@ function displayContactUs() {
                 <div id="id${values.contactID}" class="modal">
                 <div class="modal-content">
                     <div class="container">
-                        <h1>Delete Account</h1>
-                        <p class="p-delete">Are you sure you want to delete user account?</p>
+                        <h1>Delete Message</h1>
+                        <p class="p-delete">Are you sure you want to delete message?</p>
         
                         <div class="clearfix">
                             <button type="button" onclick="document.getElementById('id${values.contactID}').style.display='none'" class="cancelbtn">Cancel</button>
